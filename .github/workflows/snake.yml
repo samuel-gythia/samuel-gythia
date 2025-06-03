@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Persona 5 Snake Animation
 
 on:
   schedule:
@@ -14,13 +14,13 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      - name: Generate github-contribution-grid-snake.svg
+      - name: Generate Persona 5 themed github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: samuel-gythia
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=red&color_dots=black,darkred,red,crimson,white
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=red&color_dots=black,darkred,red,crimson,white
             
       - name: Push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

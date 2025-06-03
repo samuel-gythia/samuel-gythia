@@ -16,10 +16,23 @@
 }
 
 @keyframes gradient-shift {
-    0%, 100% { background-position: 0% 50%; }
-    25% { background-position: 100% 50%; }
-    50% { background-position: 50% 100%; }
-    75% { background-position: 50% 0%; }
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 100% 50%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    75% {
+        background-position: 50% 0%;
+    }
 }
 
 /* Animated Cityscape Silhouette */
@@ -35,8 +48,13 @@
 }
 
 @keyframes cityscape-scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 /* Phantom Mask Logo Animation */
@@ -55,7 +73,7 @@
     justify-content: center;
     font-size: 3rem;
     animation: mask-float 4s ease-in-out infinite;
-    box-shadow: 
+    box-shadow:
         0 0 30px rgba(255, 0, 0, 0.8),
         inset 0 0 20px rgba(255, 0, 0, 0.3);
 }
@@ -66,13 +84,25 @@
 }
 
 @keyframes mask-float {
-    0%, 100% { transform: translateY(-50%) scale(1); }
-    50% { transform: translateY(-60%) scale(1.1); }
+
+    0%,
+    100% {
+        transform: translateY(-50%) scale(1);
+    }
+
+    50% {
+        transform: translateY(-60%) scale(1.1);
+    }
 }
 
 @keyframes mask-rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /* Main Title Animation */
@@ -93,7 +123,7 @@
     letter-spacing: 4px;
     margin: 0;
     animation: title-glow 3s ease-in-out infinite;
-    text-shadow: 
+    text-shadow:
         0 0 10px #FF0000,
         0 0 20px #FF0000,
         0 0 30px #FF0000;
@@ -111,15 +141,18 @@
 }
 
 @keyframes title-glow {
-    0%, 100% { 
-        text-shadow: 
+
+    0%,
+    100% {
+        text-shadow:
             0 0 10px #FF0000,
             0 0 20px #FF0000,
             0 0 30px #FF0000;
         transform: scale(1);
     }
-    50% { 
-        text-shadow: 
+
+    50% {
+        text-shadow:
             0 0 15px #FF0000,
             0 0 30px #FF0000,
             0 0 45px #FF0000,
@@ -129,9 +162,19 @@
 }
 
 @keyframes text-flicker {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.8; }
-    75% { opacity: 0.9; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    75% {
+        opacity: 0.9;
+    }
 }
 
 /* Calling Card Animation */
@@ -151,19 +194,24 @@
 }
 
 @keyframes card-float {
-    0%, 100% { 
+
+    0%,
+    100% {
         transform: translateY(0) rotate(0deg);
         box-shadow: 0 10px 30px rgba(255, 0, 0, 0.5);
     }
-    25% { 
+
+    25% {
         transform: translateY(-10px) rotate(2deg);
         box-shadow: 0 20px 40px rgba(255, 0, 0, 0.6);
     }
-    50% { 
+
+    50% {
         transform: translateY(-5px) rotate(-1deg);
         box-shadow: 0 15px 35px rgba(255, 0, 0, 0.7);
     }
-    75% { 
+
+    75% {
         transform: translateY(-15px) rotate(1deg);
         box-shadow: 0 25px 45px rgba(255, 0, 0, 0.6);
     }
@@ -205,23 +253,45 @@
     opacity: 0;
 }
 
-.particle:nth-child(1) { left: 10%; animation-delay: 0s; }
-.particle:nth-child(2) { left: 30%; animation-delay: 1s; }
-.particle:nth-child(3) { left: 50%; animation-delay: 2s; }
-.particle:nth-child(4) { left: 70%; animation-delay: 3s; }
-.particle:nth-child(5) { left: 90%; animation-delay: 4s; }
+.particle:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.particle:nth-child(2) {
+    left: 30%;
+    animation-delay: 1s;
+}
+
+.particle:nth-child(3) {
+    left: 50%;
+    animation-delay: 2s;
+}
+
+.particle:nth-child(4) {
+    left: 70%;
+    animation-delay: 3s;
+}
+
+.particle:nth-child(5) {
+    left: 90%;
+    animation-delay: 4s;
+}
 
 @keyframes particle-float {
     0% {
         transform: translateY(100vh);
         opacity: 0;
     }
+
     10% {
         opacity: 1;
     }
+
     90% {
         opacity: 1;
     }
+
     100% {
         transform: translateY(-100px);
         opacity: 0;
@@ -267,11 +337,14 @@
 }
 
 @keyframes footer-logo-pulse {
-    0%, 100% { 
+
+    0%,
+    100% {
         transform: scale(1);
         box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
     }
-    50% { 
+
+    50% {
         transform: scale(1.1);
         box-shadow: 0 0 40px rgba(255, 0, 0, 0.8);
     }
@@ -287,10 +360,13 @@
 }
 
 @keyframes footer-text-glow {
-    0%, 100% { 
+
+    0%,
+    100% {
         text-shadow: 0 0 10px #FF0000;
     }
-    50% { 
+
+    50% {
         text-shadow: 0 0 20px #FF0000, 0 0 30px #FF0000;
     }
 }
@@ -334,8 +410,15 @@
 }
 
 @keyframes link-pulse {
-    0%, 100% { border-color: #FF0000; }
-    50% { border-color: #FFFFFF; }
+
+    0%,
+    100% {
+        border-color: #FF0000;
+    }
+
+    50% {
+        border-color: #FFFFFF;
+    }
 }
 
 .footer-quote {
@@ -349,8 +432,15 @@
 }
 
 @keyframes quote-fade {
-    0%, 100% { opacity: 0.8; }
-    50% { opacity: 1; }
+
+    0%,
+    100% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
 
 .footer-copyright {
@@ -378,25 +468,48 @@
     position: absolute;
     width: 2px;
     height: 100%;
-    background: repeating-linear-gradient(
-        to bottom,
-        #C0C0C0 0px,
-        #C0C0C0 10px,
-        transparent 10px,
-        transparent 20px
-    );
+    background: repeating-linear-gradient(to bottom,
+            #C0C0C0 0px,
+            #C0C0C0 10px,
+            transparent 10px,
+            transparent 20px);
     animation: chain-sway 8s ease-in-out infinite;
 }
 
-.chain:nth-child(1) { left: 5%; animation-delay: 0s; }
-.chain:nth-child(2) { left: 25%; animation-delay: 1s; }
-.chain:nth-child(3) { left: 75%; animation-delay: 2s; }
-.chain:nth-child(4) { left: 95%; animation-delay: 3s; }
+.chain:nth-child(1) {
+    left: 5%;
+    animation-delay: 0s;
+}
+
+.chain:nth-child(2) {
+    left: 25%;
+    animation-delay: 1s;
+}
+
+.chain:nth-child(3) {
+    left: 75%;
+    animation-delay: 2s;
+}
+
+.chain:nth-child(4) {
+    left: 95%;
+    animation-delay: 3s;
+}
 
 @keyframes chain-sway {
-    0%, 100% { transform: translateX(0) rotate(0deg); }
-    25% { transform: translateX(10px) rotate(2deg); }
-    75% { transform: translateX(-10px) rotate(-2deg); }
+
+    0%,
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(10px) rotate(2deg);
+    }
+
+    75% {
+        transform: translateX(-10px) rotate(-2deg);
+    }
 }
 
 /* Responsive Design */
@@ -404,28 +517,28 @@
     .title-primary {
         font-size: 2.5rem;
     }
-    
+
     .title-secondary {
         font-size: 1.2rem;
     }
-    
+
     .persona5-main-title {
         right: 10%;
         top: 50%;
     }
-    
+
     .calling-card-float {
         width: 150px;
         height: 100px;
         padding: 10px;
     }
-    
+
     .footer-links {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    
+
     .footer-title {
         font-size: 2rem;
     }

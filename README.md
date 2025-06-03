@@ -5,6 +5,11 @@
 <!-- Persona 5 Red/Black Cityscape Banner -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=31,0,1,2,3&height=350&section=header&text=SAMUEL%20GYTHIA&fontSize=65&fontAlign=50&fontAlignY=35&desc=PHANTOM%20THIEF%20OF%20CODE%20%E2%80%A2%20QUANTUM%20RESEARCHER&descAlign=50&descAlignY=65&animation=blinking&fontColor=FF0000&descSize=16&descColor=FFFFFF&stroke=000000&strokeWidth=2" alt="Persona 5 Portfolio Banner" />
 
+<!-- Persona 5 Theme Cover Image -->
+<div align="center" style="margin: 20px 0;">
+  <img src="./assets/f7a8c755-aff6-4c95-8488-51de270a2df9.jpg" alt="Persona 5 Phantom Thieves Cover" width="100%" style="border-radius: 15px; border: 3px solid #FF0000; box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);" />
+</div>
+
 <!-- Persona 5 Style Profile Picture with Mask Effect -->
 <img src="https://github.com/samuel-gythia.png" 
      alt="Samuel Gythia - Phantom Thief Researcher" 
@@ -153,24 +158,24 @@ Persona: "Quantum Code Arsène"
 
 </div>
 
-<div align="center" style="background: linear-gradient(135deg, #0f172a, #1e3a8a); border-radius: 15px; padding: 30px;">
+<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 15px; padding: 30px; border: 2px solid #FF0000;">
 
-### **⚛️ QUANTUM & SCIENTIFIC COMPUTING**
-![Python](https://img.shields.io/badge/Python-FFD700?style=flat-square&logo=python&logoColor=0f172a&labelColor=1e40af)
-![Jupyter](https://img.shields.io/badge/Jupyter-FFD700?style=flat-square&logo=Jupyter&logoColor=0f172a&labelColor=ea580c)
-![NumPy](https://img.shields.io/badge/NumPy-FFD700?style=flat-square&logo=numpy&logoColor=0f172a&labelColor=6366f1)
-![SciPy](https://img.shields.io/badge/SciPy-FFD700?style=flat-square&logo=SciPy&logoColor=0f172a&labelColor=7c3aed)
-![QuTiP](https://img.shields.io/badge/QuTiP-FFD700?style=flat-square&logoColor=0f172a&labelColor=059669)
-![Qiskit](https://img.shields.io/badge/Qiskit-FFD700?style=flat-square&logo=qiskit&logoColor=0f172a&labelColor=6929C4)
-![Cirq](https://img.shields.io/badge/Cirq-FFD700?style=flat-square&logo=google&logoColor=0f172a&labelColor=0891b2)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-FFD700?style=flat-square&logoColor=0f172a&labelColor=dc2626)
+### **⚛️ PHANTOM SCIENTIFIC ARSENAL**
+![Python](https://img.shields.io/badge/Python-FFFFFF?style=for-the-badge&logo=python&logoColor=000000&labelColor=FF0000)
+![Jupyter](https://img.shields.io/badge/Jupyter-FFFFFF?style=for-the-badge&logo=Jupyter&logoColor=000000&labelColor=FF0000)
+![NumPy](https://img.shields.io/badge/NumPy-FFFFFF?style=for-the-badge&logo=numpy&logoColor=000000&labelColor=FF0000)
+![SciPy](https://img.shields.io/badge/SciPy-FFFFFF?style=for-the-badge&logo=SciPy&logoColor=000000&labelColor=FF0000)
+![QuTiP](https://img.shields.io/badge/QuTiP-FFFFFF?style=for-the-badge&logoColor=000000&labelColor=FF0000)
+![Qiskit](https://img.shields.io/badge/Qiskit-FFFFFF?style=for-the-badge&logo=qiskit&logoColor=000000&labelColor=FF0000)
+![Cirq](https://img.shields.io/badge/Cirq-FFFFFF?style=for-the-badge&logo=google&logoColor=000000&labelColor=FF0000)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-FFFFFF?style=for-the-badge&logoColor=000000&labelColor=FF0000)
 
-### **🛠️ DEVELOPMENT ARSENAL**
-![Git](https://img.shields.io/badge/Git-FFD700?style=flat-square&logo=git&logoColor=0f172a&labelColor=dc2626)
-![GitHub](https://img.shields.io/badge/GitHub-FFD700?style=flat-square&logo=github&logoColor=0f172a&labelColor=374151)
-![VS Code](https://img.shields.io/badge/VS_Code-FFD700?style=flat-square&logo=visual%20studio%20code&logoColor=0f172a&labelColor=0078D4)
-![Linux](https://img.shields.io/badge/Linux-FFD700?style=flat-square&logo=linux&logoColor=0f172a&labelColor=0f7b0f)
-![Docker](https://img.shields.io/badge/Docker-FFD700?style=flat-square&logo=docker&logoColor=0f172a&labelColor=0891b2)
+### **🛠️ PHANTOM THIEF TOOLS**
+![Git](https://img.shields.io/badge/Git-FFFFFF?style=for-the-badge&logo=git&logoColor=000000&labelColor=FF0000)
+![GitHub](https://img.shields.io/badge/GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=000000&labelColor=FF0000)
+![VS Code](https://img.shields.io/badge/VS_Code-FFFFFF?style=for-the-badge&logo=visual%20studio%20code&logoColor=000000&labelColor=FF0000)
+![Linux](https://img.shields.io/badge/Linux-FFFFFF?style=for-the-badge&logo=linux&logoColor=000000&labelColor=FF0000)
+![Docker](https://img.shields.io/badge/Docker-FFFFFF?style=for-the-badge&logo=docker&logoColor=000000&labelColor=FF0000)
 
 </div>
 
@@ -178,20 +183,20 @@ Persona: "Quantum Code Arsène"
 
 <div align="center">
 
-## 📊 **ANALYTICS COMPENDIUM**
+## 📊 **PHANTOM THIEF STATISTICS**
 
 </div>
 
-<div align="center" style="background: linear-gradient(135deg, #0f172a, #1e3a8a); border-radius: 20px; padding: 30px;">
+<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 30px; border: 2px solid #FF0000;">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samuel-gythia&show_icons=true&theme=radical&hide_border=true&bg_color=0f172a&icon_color=FFD700&text_color=87CEEB&title_color=FFD700&include_all_commits=true&count_private=true&border_radius=15" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samuel-gythia&theme=radical&hide_border=true&background=0f172a&stroke=FFD700&ring=FFD700&fire=FFD700&currStreakLabel=87CEEB&border_radius=15" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samuel-gythia&show_icons=true&theme=radical&hide_border=true&bg_color=000000&icon_color=FF0000&text_color=FFFFFF&title_color=FF0000&include_all_commits=true&count_private=true&border_radius=15" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samuel-gythia&theme=radical&hide_border=true&background=000000&stroke=FF0000&ring=FF0000&fire=FF0000&currStreakLabel=FFFFFF&border_radius=15" />
 
 </div>
 
 <div align="center" style="margin-top: 20px;">
 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=compact&theme=radical&hide_border=true&bg_color=0f172a&text_color=87CEEB&title_color=FFD700&langs_count=8&exclude_repo=samuel-gythia&border_radius=15" />
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=compact&theme=radical&hide_border=true&bg_color=000000&text_color=FFFFFF&title_color=FF0000&langs_count=8&exclude_repo=samuel-gythia&border_radius=15" />
 
 </div>
 
@@ -199,19 +204,19 @@ Persona: "Quantum Code Arsène"
 
 <div align="center">
 
-## 🐍 **CONTRIBUTION VISUALIZATION**
+## 🐍 **PHANTOM ACTIVITY GRID**
 
 </div>
 
-<div align="center" style="background: linear-gradient(135deg, #0f172a, #1e3a8a); border-radius: 20px; padding: 20px;">
+<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 20px; border: 2px solid #FF0000;">
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=samuel-gythia&theme=high-contrast&hide_border=true&bg_color=0f172a&color=FFD700&line=87CEEB&point=FFD700&area=true&area_color=1e3a8a)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=samuel-gythia&theme=high-contrast&hide_border=true&bg_color=000000&color=FF0000&line=FFFFFF&point=FF0000&area=true&area_color=330000)
 
-<!-- Persona 3 Reload Style Snake Animation -->
+<!-- Persona 5 Phantom Thieves Snake Animation -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samuel-gythia/samuel-gythia/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samuel-gythia/samuel-gythia/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/samuel-gythia/samuel-gythia/output/github-contribution-grid-snake.svg">
+  <img alt="Phantom Thief GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/samuel-gythia/samuel-gythia/output/github-contribution-grid-snake.svg">
 </picture>
 
 </div>
@@ -220,13 +225,13 @@ Persona: "Quantum Code Arsène"
 
 <div align="center">
 
-## 🏆 **ACHIEVEMENT SANCTUM**
+## 🏆 **PHANTOM THIEF TROPHIES**
 
 </div>
 
-<div align="center" style="background: linear-gradient(135deg, #0f172a, #1e3a8a); border-radius: 20px; padding: 20px;">
+<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 20px; border: 2px solid #FF0000;">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=samuel-gythia&theme=radical&no-frame=true&column=4&margin-w=15&margin-h=15&no-bg=true&title_color=FFD700&text_color=87CEEB)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=samuel-gythia&theme=radical&no-frame=true&column=4&margin-w=15&margin-h=15&no-bg=true&title_color=FF0000&text_color=FFFFFF)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -234,11 +239,11 @@ Persona: "Quantum Code Arsène"
 
 <div align="center">
 
-## 🌙 **BEYOND THE QUANTUM VEIL**
+## 🌙 **BEYOND THE PHANTOM REALM**
 
 </div>
 
-<div align="center" style="background: linear-gradient(135deg, #0f172a, #1e3a8a); border-radius: 20px; padding: 30px;">
+<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 30px; border: 2px solid #FF0000;">
 
 <table width="90%">
 <tr>
@@ -269,11 +274,11 @@ Persona: "Quantum Code Arsène"
 
 <div align="center">
 
-## 📫 **COMMUNICATION NEXUS**
+## 📫 **PHANTOM COMMUNICATION NEXUS**
 
 </div>
 
-<div align="center" style="background: linear-gradient(135deg, #0f172a, #1e3a8a); border-radius: 15px; padding: 30px;">
+<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 15px; padding: 30px; border: 2px solid #FF0000;">
 
 <a href="mailto:samuel.gythia@outlook.com">
   <img src="https://img.shields.io/badge/EMAIL-samuel.gythia@outlook.com-FFD700?style=flat-square&logo=gmail&logoColor=0f172a&labelColor=dc2626" />

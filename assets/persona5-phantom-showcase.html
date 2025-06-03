@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,8 @@
     <link rel="stylesheet" href="persona5-phantom-thieves.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -16,21 +18,21 @@
             min-height: 100vh;
             overflow-x: hidden;
         }
-        
+
         .metaverse-container {
             position: relative;
             width: 100%;
             min-height: 100vh;
-            background-image: 
+            background-image:
                 radial-gradient(circle at 20% 30%, rgba(255, 0, 0, 0.1) 0%, transparent 50%),
                 radial-gradient(circle at 80% 70%, rgba(255, 0, 0, 0.1) 0%, transparent 50%),
                 linear-gradient(135deg, #000000 0%, #1a0000 50%, #000000 100%);
         }
-        
+
         .phantom-entrance {
             animation: phantom-entrance 2s ease-out;
         }
-        
+
         .calling-card-showcase {
             background: linear-gradient(45deg, #000000, #FF0000, #000000);
             border: 3px solid #FF0000;
@@ -39,12 +41,12 @@
             margin: 40px auto;
             max-width: 800px;
             text-align: center;
-            box-shadow: 
+            box-shadow:
                 0 0 30px rgba(255, 0, 0, 0.5),
                 inset 0 0 20px rgba(255, 0, 0, 0.1);
             animation: calling-card 8s infinite;
         }
-        
+
         .persona-awakening {
             position: relative;
             background: radial-gradient(circle, #FF0000 0%, #000000 70%);
@@ -57,13 +59,13 @@
             justify-content: center;
             animation: phantom-pulse 4s infinite;
         }
-        
+
         .persona-awakening::before {
             content: '🎭';
             font-size: 4rem;
             animation: mask-glint 3s infinite;
         }
-        
+
         .confidant-system {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -71,7 +73,7 @@
             margin: 40px 0;
             padding: 0 20px;
         }
-        
+
         .confidant-card {
             background: linear-gradient(135deg, #000000, #330000);
             border: 2px solid #FF0000;
@@ -81,12 +83,12 @@
             transition: all 0.3s ease;
             animation: phantom-entrance 2s ease-out;
         }
-        
+
         .confidant-card:hover {
             transform: scale(1.05);
             box-shadow: 0 10px 30px rgba(255, 0, 0, 0.4);
         }
-        
+
         .phantom-stats {
             background: linear-gradient(90deg, #000000, #FF0000, #000000);
             border-radius: 25px;
@@ -96,19 +98,19 @@
             justify-content: space-around;
             flex-wrap: wrap;
         }
-        
+
         .stat-item {
             text-align: center;
             padding: 15px;
         }
-        
+
         .stat-value {
             font-family: 'Bebas Neue', cursive;
             font-size: 2.5rem;
             color: #FF0000;
             text-shadow: 0 0 10px #FF0000;
         }
-        
+
         .stat-label {
             font-family: 'Oswald', sans-serif;
             font-size: 1rem;
@@ -116,7 +118,7 @@
             text-transform: uppercase;
             letter-spacing: 1px;
         }
-        
+
         .velvet-room-portal {
             position: fixed;
             bottom: 30px;
@@ -133,13 +135,13 @@
             animation: phantom-pulse 3s infinite;
             z-index: 1000;
         }
-        
+
         .velvet-room-portal::before {
             content: '🌀';
             font-size: 2rem;
             animation: mask-glint 2s infinite;
         }
-        
+
         .all-out-attack-btn {
             background: linear-gradient(45deg, #FF0000, #000000, #FF0000);
             border: 3px solid #FF0000;
@@ -155,13 +157,13 @@
             transition: all 0.3s ease;
             animation: metaverse-glitch 6s infinite;
         }
-        
+
         .all-out-attack-btn:hover {
             transform: scale(1.1);
             box-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
             animation: phantom-pulse 2s infinite;
         }
-        
+
         .treasure-list {
             background: linear-gradient(135deg, #1a1a1a, #000000);
             border: 2px solid #FFD700;
@@ -169,7 +171,7 @@
             padding: 25px;
             margin: 30px 0;
         }
-        
+
         .treasure-item {
             display: flex;
             align-items: center;
@@ -179,27 +181,27 @@
             border-radius: 10px;
             transition: all 0.3s ease;
         }
-        
+
         .treasure-item:hover {
             background: rgba(255, 0, 0, 0.2);
             transform: translateX(10px);
         }
-        
+
         .treasure-icon {
             font-size: 1.5rem;
             margin-right: 15px;
             animation: mask-glint 4s infinite;
         }
-        
+
         @media (max-width: 768px) {
             .phantom-stats {
                 flex-direction: column;
             }
-            
+
             .confidant-system {
                 grid-template-columns: 1fr;
             }
-            
+
             .calling-card-showcase {
                 margin: 20px 10px;
                 padding: 20px;
@@ -207,6 +209,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="metaverse-container">
         <!-- Header -->
@@ -215,7 +218,7 @@
             <p class="phantom-subtitle">Welcome to the Metaverse</p>
             <p class="metaverse-text">"I am thou, thou art I... Let's steal some hearts with algorithms!"</p>
         </div>
-        
+
         <!-- Calling Card Showcase -->
         <div class="calling-card-showcase">
             <h2 class="phantom-title" style="font-size: 2.5rem;">CALLING CARD</h2>
@@ -230,7 +233,7 @@
                 ALL-OUT ATTACK!
             </button>
         </div>
-        
+
         <!-- Phantom Stats -->
         <div class="phantom-stats">
             <div class="stat-item">
@@ -250,7 +253,7 @@
                 <div class="stat-label">Thief Status</div>
             </div>
         </div>
-        
+
         <!-- Confidant System -->
         <div class="confidant-system">
             <div class="confidant-card">
@@ -261,7 +264,7 @@
                 <div class="phantom-badge">Python Persona</div>
                 <div class="phantom-badge">C++ Shadow</div>
             </div>
-            
+
             <div class="confidant-card">
                 <h3 class="phantom-title" style="font-size: 1.8rem;">⚡ THE MAGICIAN</h3>
                 <div class="confidant-rank">RANK MAX</div>
@@ -270,7 +273,7 @@
                 <div class="phantom-badge">Machine Learning</div>
                 <div class="phantom-badge">AI Development</div>
             </div>
-            
+
             <div class="confidant-card">
                 <h3 class="phantom-title" style="font-size: 1.8rem;">🌟 THE STAR</h3>
                 <div class="confidant-rank">RANK MAX</div>
@@ -280,7 +283,7 @@
                 <div class="phantom-badge">Code Mentor</div>
             </div>
         </div>
-        
+
         <!-- Treasure List -->
         <div class="treasure-list">
             <h3 class="phantom-title" style="font-size: 2rem;">💎 STOLEN TREASURES</h3>
@@ -305,29 +308,29 @@
                 <span class="metaverse-text">Quantum Computing Breakthroughs</span>
             </div>
         </div>
-        
+
         <!-- Velvet Room Portal -->
         <div class="velvet-room-portal" onclick="enterVelvetRoom()"></div>
     </div>
-    
+
     <script>
         function triggerAllOutAttack() {
             const body = document.body;
             body.style.animation = 'metaverse-glitch 0.5s ease-in-out';
-            
+
             // Create explosion effect
             for (let i = 0; i < 20; i++) {
                 setTimeout(() => {
                     createParticle();
                 }, i * 50);
             }
-            
+
             setTimeout(() => {
                 body.style.animation = '';
                 alert('💥 ALL-OUT ATTACK! Your coding expectations have been successfully stolen! 💥');
             }, 1000);
         }
-        
+
         function createParticle() {
             const particle = document.createElement('div');
             particle.style.position = 'fixed';
@@ -337,15 +340,15 @@
             particle.style.borderRadius = '50%';
             particle.style.pointerEvents = 'none';
             particle.style.zIndex = '9999';
-            
+
             const x = Math.random() * window.innerWidth;
             const y = Math.random() * window.innerHeight;
-            
+
             particle.style.left = x + 'px';
             particle.style.top = y + 'px';
-            
+
             document.body.appendChild(particle);
-            
+
             particle.animate([
                 { transform: 'scale(0)', opacity: 1 },
                 { transform: 'scale(1)', opacity: 0.8 },
@@ -357,17 +360,17 @@
                 particle.remove();
             };
         }
-        
+
         function enterVelvetRoom() {
             const portal = document.querySelector('.velvet-room-portal');
             portal.style.animation = 'phantom-pulse 0.5s ease-in-out';
-            
+
             setTimeout(() => {
                 portal.style.animation = 'phantom-pulse 3s infinite';
                 alert('🌀 Welcome to the Velvet Room... Your coding destiny awaits! 🌀');
             }, 500);
         }
-        
+
         // Auto-trigger some effects on load
         window.addEventListener('load', () => {
             setTimeout(() => {
@@ -379,7 +382,7 @@
                 });
             }, 1000);
         });
-        
+
         // Random metaverse glitches
         setInterval(() => {
             if (Math.random() < 0.1) {
@@ -393,4 +396,5 @@
         }, 3000);
     </script>
 </body>
+
 </html>
