@@ -1,39 +1,32 @@
 <div align="center">
 
-<!-- ═══════════════ PERSONA 3 RELOAD × CHERRY BLOSSOM QUANTUM HEADER ═══════════════ -->
+<!-- ═══════════════ PROFESSIONAL RESEARCH PORTFOLIO HEADER ═══════════════ -->
 
-<!-- Cherry Blossom Themed Banner with Quantum Physics Aesthetic -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,25,26,27,28,29&height=350&section=header&text=Samuel%20Gythia&fontSize=55&fontAlign=50&fontAlignY=40&desc=⚛️%20THE%20ANSWER%20LIES%20IN%20QUANTUM%20COMPUTATION%20⚛️&descAlign=50&descAlignY=60&animation=fadeIn&fontColor=FFD700&descSize=16&descColor=ff91a4&stroke=FFD700&strokeWidth=2" alt="Cherry Blossom Quantum Banner" />
+<!-- Oceanic Research Banner with Persona 3 Reload Aesthetic -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,18,24,30,36&height=320&section=header&text=Samuel%20Gythia&fontSize=50&fontAlign=50&fontAlignY=40&desc=Quantum%20Computation%20%26%20Theoretical%20Physics%20Research&descAlign=50&descAlignY=60&animation=fadeIn&fontColor=4FC3F7&descSize=14&descColor=B3E5FC&stroke=1976D2&strokeWidth=1" alt="Research Portfolio Banner" />
 
-<!-- Profile Picture with Enhanced Quantum Glow Effect -->
+<!-- Professional Profile Picture -->
 <img src="https://github.com/samuel-gythia.png" 
-     alt="Samuel Gythia - Quantum Researcher" 
-     width="150" 
-     height="150" 
-     style="border-radius: 50%; margin-top: -75px; border: 5px solid #FFD700; box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);" />
+     alt="Samuel Gythia - Research Scientist" 
+     width="140" 
+     height="140" 
+     style="border-radius: 50%; margin-top: -70px; border: 4px solid #1976D2; box-shadow: 0 0 15px rgba(25, 118, 210, 0.4);" />
 
-<!-- Persona 3 Reload × Cherry Blossom Professional Titles -->
+<!-- Professional Research Titles -->
 <div align="center" style="margin-top: 20px;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=26&duration=3000&pause=1000&color=87CEEB&center=true&vCenter=true&width=900&height=60&lines=⚛️+QUANTUM+RESEARCHER+⚛️;🌸+CHERRY+BLOSSOM+PHYSICIST+🌸;💻+COMPUTATIONAL+SCIENTIST+💻;🌊+WAVE+FUNCTION+DEVELOPER+🌊;🎭+PERSONA+3+QUANTUM+EXPLORER+🎭" alt="Professional Quantum Titles" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=24&duration=3000&pause=1000&color=1976D2&center=true&vCenter=true&width=800&height=50&lines=Quantum+Computation+Researcher;Theoretical+Physics+Scientist;Computational+Mathematics+Expert;Many-Body+Systems+Specialist" alt="Research Specializations" />
 </div>
 
-<!-- Cherry Blossom Themed Status Badges -->
+<!-- Professional Status Badges -->
 <p align="center" style="margin-top: 25px;">
-  <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=QUANTUM+VISITORS&color=ff69b4&style=for-the-badge&labelColor=1a237e" alt="Quantum Visitors" />
-  <img src="https://img.shields.io/github/followers/samuel-gythia?label=FOLLOWERS&style=for-the-badge&color=FFD700&labelColor=3949ab" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/samuel-gythia?label=STARS&style=for-the-badge&color=ff91a4&labelColor=5e35b1" alt="GitHub Stars" />
+  <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PROFILE+VIEWS&color=1976D2&style=flat-square&labelColor=0D47A1" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/samuel-gythia?label=FOLLOWERS&style=flat-square&color=4FC3F7&labelColor=1565C0" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/samuel-gythia?label=TOTAL+STARS&style=flat-square&color=B3E5FC&labelColor=1976D2" alt="GitHub Stars" />
 </p>
 
-<!-- Epic Quantum Declaration Banner -->
+<!-- Research Focus Declaration -->
 <p align="center" style="margin-top: 30px;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=32&duration=4000&pause=1500&color=FFD700&center=true&vCenter=true&width=1000&height=80&lines=⚛️+BRIDGING+QUANTUM+%26+CLASSICAL+REALMS+⚛️;🌸+WHERE+PHYSICS+MEETS+CHERRY+BLOSSOMS+🌸;💻+COMPUTATIONAL+UNIVERSE+EXPLORER+💻;🌊+QUANTUM+SUPERPOSITION+MASTER+🌊;⚡+THE+ANSWER+AWAITS+IN+THE+CODE+⚡" alt="Epic Quantum Declarations" />
-</p>
-
-<!-- Persona 3 Quantum Symbol Badge -->
-<p align="center" style="margin-top: 20px;">
-  <img src="https://img.shields.io/badge/Ψ-QUANTUM_STATE-FFD700?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMTIgMmMxLjEgMCAyIC45IDIgMnMtLjkgMi0yIDItMi0uOS0yLTIgLjktMiAyLTJ6bTkgOWgtMmMwLTQuMy0zLjEtNy45LTcuMi04aDAtLjhDNi45IDMuMSAzLjMgNi43IDMuMyAxMUgxYzAtNS41IDQuNS0xMCAxMC0xMHMxMCA0LjUgMTAgMTB6Ii8+PC9zdmc+&labelColor=1a237e" alt="Quantum State Badge" />
-  <img src="https://img.shields.io/badge/🌸-CHERRY_BLOSSOM-ff91a4?style=for-the-badge&labelColor=3949ab" alt="Cherry Blossom Badge" />
-  <img src="https://img.shields.io/badge/P3R-PERSONA_3_RELOAD-5e35b1?style=for-the-badge&labelColor=0a0e27" alt="Persona 3 Reload Badge" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=28&duration=4000&pause=1500&color=0D47A1&center=true&vCenter=true&width=950&height=70&lines=Bridging+Quantum+%26+Classical+Computation;Advancing+Theoretical+Physics+Research;Computational+Solutions+for+Complex+Systems;Mathematical+Modeling+%26+Simulation" alt="Research Focus Areas" />
 </p>
 
 </div>
