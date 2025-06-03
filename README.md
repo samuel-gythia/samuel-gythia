@@ -1,13 +1,15 @@
 <div align="center">
 
-<!-- ═══════════════ PERSONA 5 PHANTOM THIEVES PORTFOLIO HEADER ═══════════════ -->
+<!-- ═══════════════ PERSONA 5 PHANTOM THIEVES PORTFOLIO ═══════════════ -->
 
-<!-- Persona 5 Red/Black Cityscape Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=31,0,1,2,3&height=350&section=header&text=SAMUEL%20GYTHIA&fontSize=65&fontAlign=50&fontAlignY=35&desc=PHANTOM%20THIEF%20OF%20CODE%20%E2%80%A2%20QUANTUM%20RESEARCHER&descAlign=50&descAlignY=65&animation=blinking&fontColor=FF0000&descSize=16&descColor=FFFFFF&stroke=000000&strokeWidth=2" alt="Persona 5 Portfolio Banner" />
+<!-- Persona 5 Cover Image -->
+<img src="./assets/f7a8c755-aff6-4c95-8488-51de270a2df9.jpg" alt="Persona 5 Phantom Thieves Cover" width="100%" style="border-radius: 15px; border: 3px solid #FF0000; box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);" />
 
-<!-- Persona 5 Theme Cover Image -->
-<div align="center" style="margin: 20px 0;">
-  <img src="./assets/f7a8c755-aff6-4c95-8488-51de270a2df9.jpg" alt="Persona 5 Phantom Thieves Cover" width="100%" style="border-radius: 15px; border: 3px solid #FF0000; box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);" />
+<!-- Name and Title with Persona 5 Styling -->
+<div align="center" style="margin-top: -150px; position: relative; z-index: 10;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&weight=700&size=65&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=800&height=120&lines=SAMUEL+GYTHIA" alt="Samuel Gythia" style="filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.8)) drop-shadow(-1px -1px 0px white) drop-shadow(1px -1px 0px white) drop-shadow(-1px 1px 0px white) drop-shadow(1px 1px 0px white);" />
+  <br/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Oswald&weight=500&size=22&duration=2000&pause=500&color=FFFFFF&center=true&vCenter=true&width=600&height=50&lines=PHANTOM+THIEF+OF+CODE+%E2%80%A2+QUANTUM+RESEARCHER" alt="Phantom Thief Title" style="filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.9));" />
 </div>
 
 <!-- Persona 5 Style Profile Picture with Mask Effect -->
@@ -15,7 +17,7 @@
      alt="Samuel Gythia - Phantom Thief Researcher" 
      width="160" 
      height="160" 
-     style="border-radius: 50%; margin-top: -80px; border: 6px solid #FF0000; box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), inset 0 0 15px rgba(0, 0, 0, 0.7); filter: contrast(1.2) saturate(1.1);" />
+     style="border-radius: 50%; margin-top: 20px; border: 6px solid #FF0000; box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), inset 0 0 15px rgba(0, 0, 0, 0.7); filter: contrast(1.2) saturate(1.1);" />
 
 <!-- Persona 5 Phantom Thief Titles -->
 <div align="center" style="margin-top: 25px;">
@@ -204,34 +206,13 @@ Persona: "Quantum Code Arsène"
 
 <div align="center">
 
-## 🐍 **PHANTOM ACTIVITY GRID**
+## 📊 **PHANTOM COMMIT ACTIVITY**
 
 </div>
 
 <div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 20px; border: 2px solid #FF0000;">
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=samuel-gythia&theme=high-contrast&hide_border=true&bg_color=000000&color=FF0000&line=FFFFFF&point=FF0000&area=true&area_color=330000)
-
-<!-- Persona 5 Phantom Thieves Snake Animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samuel-gythia/samuel-gythia/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samuel-gythia/samuel-gythia/output/github-contribution-grid-snake.svg">
-  <img alt="Phantom Thief GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/samuel-gythia/samuel-gythia/output/github-contribution-grid-snake.svg">
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
-## 🏆 **PHANTOM THIEF TROPHIES**
-
-</div>
-
-<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 20px; border: 2px solid #FF0000;">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=samuel-gythia&theme=radical&no-frame=true&column=4&margin-w=15&margin-h=15&no-bg=true&title_color=FF0000&text_color=FFFFFF)](https://github.com/ryo-ma/github-profile-trophy)
+![GitHub Commit Graph](https://github-readme-activity-graph.vercel.app/graph?username=samuel-gythia&theme=high-contrast&hide_border=true&bg_color=000000&color=FF0000&line=FFFFFF&point=FF0000&area=false)
 
 </div>
 
@@ -303,17 +284,5 @@ Persona: "Quantum Code Arsène"
 *Take your time... perfect algorithms await those who dare to rebel."*
 
 **- The Phantom Thieves of Code**
-
-</div>
-
-<!-- Persona 5 Footer -->
-<div align="center" style="margin-top: 50px;">
-
-![Persona 5 Footer](https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=31,0,1,2,3,4&height=200&section=footer&text=MISSION%20COMPLETE&fontSize=40&fontAlign=50&fontAlignY=35&desc=The%20Phantom%20Thieves%20of%20Code%20Strike%20Again&descAlign=50&descAlignY=65&animation=blinking&fontColor=FF0000&descSize=16&descColor=FFFFFF&stroke=000000&strokeWidth=2)
-
-<!-- Calling Card Final Message -->
-<div style="background: linear-gradient(45deg, #000000, #FF0000, #000000); border: 3px solid #FF0000; border-radius: 20px; padding: 25px; margin: 30px auto; max-width: 600px;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&weight=700&size=32&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=550&height=80&lines=CALLING+CARD+DELIVERED;YOUR+EXPECTATIONS+STOLEN;THANK+YOU+FOR+VISITING;STAY+REBELLIOUS!" alt="Final Calling Card" />
-</div>
 
 </div>
