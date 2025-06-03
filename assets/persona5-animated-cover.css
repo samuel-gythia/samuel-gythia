@@ -1,0 +1,432 @@
+/* ═══════════════ PERSONA 5 ANIMATED COVER & FOOTER STYLES ═══════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+/* Persona 5 Animated Cover Header */
+.persona5-cover-header {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(135deg, #000000 0%, #FF0000 25%, #000000 50%, #FF0000 75%, #000000 100%);
+    background-size: 200% 200%;
+    animation: gradient-shift 8s ease-in-out infinite;
+    overflow: hidden;
+    border-bottom: 5px solid #FF0000;
+}
+
+@keyframes gradient-shift {
+    0%, 100% { background-position: 0% 50%; }
+    25% { background-position: 100% 50%; }
+    50% { background-position: 50% 100%; }
+    75% { background-position: 50% 0%; }
+}
+
+/* Animated Cityscape Silhouette */
+.cityscape-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    height: 200px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><rect width="400" height="200" fill="%23000000"/><rect x="20" y="100" width="30" height="100" fill="%231a1a1a"/><rect x="60" y="80" width="40" height="120" fill="%231a1a1a"/><rect x="110" y="60" width="35" height="140" fill="%231a1a1a"/><rect x="155" y="90" width="25" height="110" fill="%231a1a1a"/><rect x="190" y="70" width="45" height="130" fill="%231a1a1a"/><rect x="245" y="85" width="30" height="115" fill="%231a1a1a"/><rect x="285" y="55" width="35" height="145" fill="%231a1a1a"/><rect x="330" y="75" width="40" height="125" fill="%231a1a1a"/></svg>') repeat-x;
+    animation: cityscape-scroll 20s linear infinite;
+    opacity: 0.7;
+}
+
+@keyframes cityscape-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Phantom Mask Logo Animation */
+.phantom-mask-logo {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, #FF0000 0%, #000000 70%);
+    border-radius: 50%;
+    border: 4px solid #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    animation: mask-float 4s ease-in-out infinite;
+    box-shadow: 
+        0 0 30px rgba(255, 0, 0, 0.8),
+        inset 0 0 20px rgba(255, 0, 0, 0.3);
+}
+
+.phantom-mask-logo::before {
+    content: '🎭';
+    animation: mask-rotate 6s linear infinite;
+}
+
+@keyframes mask-float {
+    0%, 100% { transform: translateY(-50%) scale(1); }
+    50% { transform: translateY(-60%) scale(1.1); }
+}
+
+@keyframes mask-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Main Title Animation */
+.persona5-main-title {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+
+.title-primary {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FF0000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    animation: title-glow 3s ease-in-out infinite;
+    text-shadow: 
+        0 0 10px #FF0000,
+        0 0 20px #FF0000,
+        0 0 30px #FF0000;
+}
+
+.title-secondary {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px 0 0 0;
+    animation: text-flicker 4s ease-in-out infinite;
+}
+
+@keyframes title-glow {
+    0%, 100% { 
+        text-shadow: 
+            0 0 10px #FF0000,
+            0 0 20px #FF0000,
+            0 0 30px #FF0000;
+        transform: scale(1);
+    }
+    50% { 
+        text-shadow: 
+            0 0 15px #FF0000,
+            0 0 30px #FF0000,
+            0 0 45px #FF0000,
+            0 0 60px #FF0000;
+        transform: scale(1.05);
+    }
+}
+
+@keyframes text-flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+    75% { opacity: 0.9; }
+}
+
+/* Calling Card Animation */
+.calling-card-float {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    height: 130px;
+    background: #FFFFFF;
+    border: 3px solid #FF0000;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.5);
+    animation: card-float 6s ease-in-out infinite;
+    z-index: 10;
+}
+
+@keyframes card-float {
+    0%, 100% { 
+        transform: translateY(0) rotate(0deg);
+        box-shadow: 0 10px 30px rgba(255, 0, 0, 0.5);
+    }
+    25% { 
+        transform: translateY(-10px) rotate(2deg);
+        box-shadow: 0 20px 40px rgba(255, 0, 0, 0.6);
+    }
+    50% { 
+        transform: translateY(-5px) rotate(-1deg);
+        box-shadow: 0 15px 35px rgba(255, 0, 0, 0.7);
+    }
+    75% { 
+        transform: translateY(-15px) rotate(1deg);
+        box-shadow: 0 25px 45px rgba(255, 0, 0, 0.6);
+    }
+}
+
+.calling-card-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.card-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    color: #FF0000;
+    margin-bottom: 8px;
+}
+
+/* Animated Red Particles */
+.red-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #FF0000;
+    border-radius: 50%;
+    animation: particle-float 8s linear infinite;
+    opacity: 0;
+}
+
+.particle:nth-child(1) { left: 10%; animation-delay: 0s; }
+.particle:nth-child(2) { left: 30%; animation-delay: 1s; }
+.particle:nth-child(3) { left: 50%; animation-delay: 2s; }
+.particle:nth-child(4) { left: 70%; animation-delay: 3s; }
+.particle:nth-child(5) { left: 90%; animation-delay: 4s; }
+
+@keyframes particle-float {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+}
+
+/* Persona 5 Footer Styles */
+.persona5-footer {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(180deg, #000000 0%, #FF0000 50%, #000000 100%);
+    padding: 60px 0;
+    margin-top: 100px;
+    border-top: 5px solid #FF0000;
+    overflow: hidden;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-phantom-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo-circle {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #FF0000 0%, #000000 70%);
+    border-radius: 50%;
+    border: 3px solid #FF0000;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    animation: footer-logo-pulse 4s ease-in-out infinite;
+}
+
+@keyframes footer-logo-pulse {
+    0%, 100% { 
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    }
+    50% { 
+        transform: scale(1.1);
+        box-shadow: 0 0 40px rgba(255, 0, 0, 0.8);
+    }
+}
+
+.footer-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: #FF0000;
+    text-align: center;
+    margin: 0;
+    animation: footer-text-glow 3s ease-in-out infinite;
+}
+
+@keyframes footer-text-glow {
+    0%, 100% { 
+        text-shadow: 0 0 10px #FF0000;
+    }
+    50% { 
+        text-shadow: 0 0 20px #FF0000, 0 0 30px #FF0000;
+    }
+}
+
+.footer-subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px 0 0 0;
+    letter-spacing: 1px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: 2px solid #FF0000;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    animation: link-pulse 5s ease-in-out infinite;
+}
+
+.footer-link:hover {
+    background: #FF0000;
+    color: #000000;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+}
+
+@keyframes link-pulse {
+    0%, 100% { border-color: #FF0000; }
+    50% { border-color: #FFFFFF; }
+}
+
+.footer-quote {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    color: #C0C0C0;
+    text-align: center;
+    font-style: italic;
+    margin: 30px 0;
+    animation: quote-fade 6s ease-in-out infinite;
+}
+
+@keyframes quote-fade {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 1; }
+}
+
+.footer-copyright {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+    color: #666666;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333333;
+}
+
+/* Background Chain Animation */
+.footer-chains {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.chain {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: repeating-linear-gradient(
+        to bottom,
+        #C0C0C0 0px,
+        #C0C0C0 10px,
+        transparent 10px,
+        transparent 20px
+    );
+    animation: chain-sway 8s ease-in-out infinite;
+}
+
+.chain:nth-child(1) { left: 5%; animation-delay: 0s; }
+.chain:nth-child(2) { left: 25%; animation-delay: 1s; }
+.chain:nth-child(3) { left: 75%; animation-delay: 2s; }
+.chain:nth-child(4) { left: 95%; animation-delay: 3s; }
+
+@keyframes chain-sway {
+    0%, 100% { transform: translateX(0) rotate(0deg); }
+    25% { transform: translateX(10px) rotate(2deg); }
+    75% { transform: translateX(-10px) rotate(-2deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .title-primary {
+        font-size: 2.5rem;
+    }
+    
+    .title-secondary {
+        font-size: 1.2rem;
+    }
+    
+    .persona5-main-title {
+        right: 10%;
+        top: 50%;
+    }
+    
+    .calling-card-float {
+        width: 150px;
+        height: 100px;
+        padding: 10px;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .footer-title {
+        font-size: 2rem;
+    }
+}

@@ -1,106 +1,106 @@
 <div align="center">
 
-<!-- ═══════════════ PROFESSIONAL RESEARCH PORTFOLIO HEADER ═══════════════ -->
+<!-- ═══════════════ PERSONA 5 PHANTOM THIEVES PORTFOLIO HEADER ═══════════════ -->
 
-<!-- Oceanic Research Banner with Persona 3 Reload Aesthetic -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,18,24,30,36&height=320&section=header&text=Samuel%20Gythia&fontSize=50&fontAlign=50&fontAlignY=40&desc=Quantum%20Computation%20%26%20Theoretical%20Physics%20Research&descAlign=50&descAlignY=60&animation=fadeIn&fontColor=4FC3F7&descSize=14&descColor=B3E5FC&stroke=1976D2&strokeWidth=1" alt="Research Portfolio Banner" />
+<!-- Persona 5 Red/Black Cityscape Banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=31,0,1,2,3&height=350&section=header&text=SAMUEL%20GYTHIA&fontSize=65&fontAlign=50&fontAlignY=35&desc=PHANTOM%20THIEF%20OF%20CODE%20%E2%80%A2%20QUANTUM%20RESEARCHER&descAlign=50&descAlignY=65&animation=blinking&fontColor=FF0000&descSize=16&descColor=FFFFFF&stroke=000000&strokeWidth=2" alt="Persona 5 Portfolio Banner" />
 
-<!-- Professional Profile Picture -->
+<!-- Persona 5 Style Profile Picture with Mask Effect -->
 <img src="https://github.com/samuel-gythia.png" 
-     alt="Samuel Gythia - Research Scientist" 
-     width="140" 
-     height="140" 
-     style="border-radius: 50%; margin-top: -70px; border: 4px solid #1976D2; box-shadow: 0 0 15px rgba(25, 118, 210, 0.4);" />
+     alt="Samuel Gythia - Phantom Thief Researcher" 
+     width="160" 
+     height="160" 
+     style="border-radius: 50%; margin-top: -80px; border: 6px solid #FF0000; box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), inset 0 0 15px rgba(0, 0, 0, 0.7); filter: contrast(1.2) saturate(1.1);" />
 
-<!-- Professional Research Titles -->
-<div align="center" style="margin-top: 20px;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=24&duration=3000&pause=1000&color=1976D2&center=true&vCenter=true&width=800&height=50&lines=Quantum+Computation+Researcher;Theoretical+Physics+Scientist;Computational+Mathematics+Expert;Many-Body+Systems+Specialist" alt="Research Specializations" />
+<!-- Persona 5 Phantom Thief Titles -->
+<div align="center" style="margin-top: 25px;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&weight=700&size=28&duration=2500&pause=800&color=FF0000&center=true&vCenter=true&width=900&height=60&lines=PHANTOM+THIEF+OF+ALGORITHMS;REBEL+QUANTUM+RESEARCHER;CODE+PALACE+INFILTRATOR;METAVERSE+DATA+SCIENTIST" alt="Phantom Thief Specializations" />
 </div>
 
-<!-- Professional Status Badges -->
-<p align="center" style="margin-top: 25px;">
-  <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PROFILE+VIEWS&color=1976D2&style=flat-square&labelColor=0D47A1" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/samuel-gythia?label=FOLLOWERS&style=flat-square&color=4FC3F7&labelColor=1565C0" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/samuel-gythia?label=TOTAL+STARS&style=flat-square&color=B3E5FC&labelColor=1976D2" alt="GitHub Stars" />
-</p>
-
-<!-- Research Focus Declaration -->
+<!-- Persona 5 Status Badges -->
 <p align="center" style="margin-top: 30px;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=28&duration=4000&pause=1500&color=0D47A1&center=true&vCenter=true&width=950&height=70&lines=Bridging+Quantum+%26+Classical+Computation;Advancing+Theoretical+Physics+Research;Computational+Solutions+for+Complex+Systems;Mathematical+Modeling+%26+Simulation" alt="Research Focus Areas" />
+  <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PROFILE+VIEWS&color=FF0000&style=for-the-badge&labelColor=000000" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/samuel-gythia?label=PHANTOM+THIEVES&style=for-the-badge&color=FF0000&labelColor=000000" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/samuel-gythia?label=TREASURES&style=for-the-badge&color=FFFFFF&labelColor=FF0000" alt="GitHub Stars" />
+</p>
+
+<!-- Persona 5 Calling Card Declaration -->
+<p align="center" style="margin-top: 35px;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&weight=700&size=32&duration=3500&pause=1200&color=FF0000&center=true&vCenter=true&width=1000&height=80&lines=STEALING+HEARTS+THROUGH+CODE;CHANGING+THE+WORLD+WITH+ALGORITHMS;QUANTUM+REBELLION+IN+PROGRESS;TAKE+YOUR+TIME...+PERFECT+CODE+AWAITS" alt="Phantom Thief Manifesto" />
 </p>
 
 </div>
 
-<div align="center" style="background: linear-gradient(45deg, #0f172a, #1e3a8a); padding: 20px; border-radius: 15px;">
+<div align="center" style="background: linear-gradient(45deg, #000000, #FF0000, #000000); padding: 25px; border-radius: 20px; border: 2px solid #FF0000;">
 
-### ✨ *"The answer lies in the heart of quantum computation"* ✨
+### 🎭 *"I am thou, thou art I... Let's steal some hearts with code!"* 🎭
 
 ---
 
-## 🌟 **RESEARCH COMPENDIUM**
+## 🔥 **PHANTOM THIEVES CODEX**
 
-*◆ Click to explore the depths of quantum reality ◆*
+*◆ Welcome to the Metaverse of Programming ◆*
 
 </div>
 
-<!-- Persona 3 Reload Style Project Showcase with Dark Ocean Aesthetics -->
-<table align="center" width="100%" style="background: linear-gradient(135deg, #0f172a, #1e3a8a); border-radius: 20px; padding: 20px;">
+<!-- Persona 5 Style Project Showcase with Red/Black Aesthetics -->
+<table align="center" width="100%" style="background: linear-gradient(135deg, #000000, #330000, #000000); border-radius: 25px; padding: 25px; border: 3px solid #FF0000;">
 <tr>
-<td align="center" width="33%" style="padding: 15px;">
+<td align="center" width="33%" style="padding: 20px;">
 
-### ⚛️ **QUANTUM MANY-BODY**
+### 🎯 **PHANTOM ALGORITHMS**
 
 <a href="https://github.com/samuel-gythia/bose-hubbard-mott-transition">
-  <img src="https://img.shields.io/badge/🌊_Bose--Hubbard-Mott_Transition-1e40af?style=flat-square&logoColor=FFD700&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/🔥_Bose--Hubbard-Heart_Steal-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/lattice-qed-schwinger-model">
-  <img src="https://img.shields.io/badge/⚡_Lattice_QED-Schwinger_Model-dc2626?style=flat-square&logoColor=FFD700&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/⚡_Lattice_QED-Palace_Infiltration-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/optomechanical-cavity-cooling">
-  <img src="https://img.shields.io/badge/🔬_Cavity-Optomechanics-0891b2?style=flat-square&logoColor=FFD700&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/🎭_Cavity-Phantom_Ops-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
-*◆ Exploring phase transitions ◆*
+*◆ Stealing hearts through quantum transitions ◆*
 
 </td>
-<td align="center" width="33%" style="padding: 15px;">
+<td align="center" width="33%" style="padding: 20px;">
 
-### 🔮 **QUANTUM OPTICS**
+### 🌟 **METAVERSE OPTICS**
 
 <a href="https://github.com/samuel-gythia/continuous-variable-squeezing">
-  <img src="https://img.shields.io/badge/🌟_CV_Squeezing-Quantum_States-059669?style=flat-square&logoColor=FFD700&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/✨_CV_Squeezing-Calling_Card-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/fdtd-photonic-waveguide-coupling">
-  <img src="https://img.shields.io/badge/🔧_FDTD-Waveguide_Coupling-ea580c?style=flat-square&logoColor=FFD700&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/🎪_FDTD-Phantom_Coupling-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/microring-photonic-modulator">
-  <img src="https://img.shields.io/badge/💫_Microring-Modulator-be185d?style=flat-square&logoColor=FFD700&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/🎨_Microring-Treasure_Hunt-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
-*◆ Manipulating light quantum ◆*
+*◆ Manipulating light like a phantom thief ◆*
 
 </td>
-<td align="center" width="33%" style="padding: 15px;">
+<td align="center" width="33%" style="padding: 20px;">
 
-### 🧠 **QUANTUM COMPUTING**
+### 🎭 **COGNITIVE COMPUTING**
 
 <a href="https://github.com/samuel-gythia/quantum-clifford-verification">
-  <img src="https://img.shields.io/badge/🔐_Clifford-Verification-7c3aed?style=flat-square&logoColor=FFD700&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/🔐_Clifford-Persona_Awakening-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/quantum-ml-verification-confidence">
-  <img src="https://img.shields.io/badge/🤖_ML-Verification-0e7490?style=flat-square&logoColor=FFD700&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/🧠_ML-All_Out_Attack-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/nv-diamond-magnetometry">
-  <img src="https://img.shields.io/badge/💎_NV_Centers-Magnetometry-ec4899?style=flat-square&logoColor=FFD700&labelColor=0f172a" />
+  <img src="https://img.shields.io/badge/💎_NV_Centers-Velvet_Room-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
-*◆ Algorithm reliability ◆*
+*◆ Algorithm rebellion in progress ◆*
 
 </td>
 </tr>
@@ -110,33 +110,35 @@
 
 <div align="center">
 
-## 🌙 **CURRENT ODYSSEY**
+## 🎭 **CURRENT HEIST MISSION**
 
 </div>
 
-<table align="center" width="90%" style="background: linear-gradient(135deg, #0f172a, #1e3a8a); border-radius: 15px; padding: 20px;">
+<table align="center" width="90%" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 25px; padding: 25px; border: 3px solid #FF0000;">
 <tr>
-<td align="center" width="50%" style="padding: 20px;">
+<td align="center" width="50%" style="padding: 25px;">
 
-### 📚 **ACADEMIC JOURNEY**
+### 🎯 **PHANTOM THIEF JOURNEY**
 ```yaml
-Status: "Master's → PhD Ascension"
-Focus: "Quantum Computing & Simulation"
-Destination: "Germany (2026-202X)"
-Languages: "German (A1-A2) | English (Native)"
-Specialization: "Theoretical & Computational Physics"
+Status: "Master's → PhD Palace Infiltration"
+Target: "Quantum Computing & Simulation Hearts"
+Next_Palace: "Germany (2026-202X)"
+Languages: "German (A1-A2) | English (Phantom)"
+Specialization: "Metaverse Physics & Computation"
+Calling_Card: "Prepare for cognitive revolution!"
 ```
 
 </td>
-<td align="center" width="50%" style="padding: 20px;">
+<td align="center" width="50%" style="padding: 25px;">
 
-### ⚗️ **RESEARCH SYNTHESIS**
+### ⚗️ **PHANTOM ARSENAL**
 ```yaml
-Current: "Quantum Algorithm Development"
-Stack: "Python | QuTiP | Qiskit | Cirq"
-Focus: "Computational Physics Simulations"
-Status: "Advanced Research Phase"
-Architecture: "Modular Quantum Libraries"
+Current_Heist: "Quantum Algorithm Heart Stealing"
+Phantom_Tools: "Python | QuTiP | Qiskit | Cirq"
+Mission_Focus: "Computational Physics Rebellion"
+Status: "All-Out Attack Phase"
+Architecture: "Modular Phantom Libraries"
+Persona: "Quantum Code Arsène"
 ```
 
 </td>
@@ -147,7 +149,7 @@ Architecture: "Modular Quantum Libraries"
 
 <div align="center">
 
-## ⚔️ **TECHNOLOGICAL ARSENAL**
+## ⚔️ **PHANTOM THIEF ARSENAL**
 
 </div>
 
@@ -277,10 +279,10 @@ Architecture: "Modular Quantum Libraries"
   <img src="https://img.shields.io/badge/EMAIL-samuel.gythia@outlook.com-FFD700?style=flat-square&logo=gmail&logoColor=0f172a&labelColor=dc2626" />
 </a>
 <a href="https://guns.lol/samuelgythia">
-  <img src="https://img.shields.io/badge/LINKS-guns.lol/samuelgythia-FFD700?style=flat-square&logo=linkfire&logoColor=0f172a&labelColor=7c3aed" />
+  <img src="https://img.shields.io/badge/🎭_PHANTOM-guns.lol/samuelgythia-FF0000?style=for-the-badge&logo=linkfire&logoColor=FFFFFF&labelColor=000000" />
 </a>
 <a href="https://github.com/samuel-gythia">
-  <img src="https://img.shields.io/badge/GITHUB-samuel--gythia-FFD700?style=flat-square&logo=github&logoColor=0f172a&labelColor=374151" />
+  <img src="https://img.shields.io/badge/🎯_GITHUB-samuel--gythia-FF0000?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 </div>
@@ -289,16 +291,24 @@ Architecture: "Modular Quantum Libraries"
 
 <div align="center">
 
-## 💫 **QUANTUM PHILOSOPHY**
+## 🎭 **PHANTOM THIEF MANIFESTO**
 
-*"The answer lies in the heart of quantum computation—*  
-*where probability waves collapse into elegant certainty,*  
-*and the impossible becomes inevitable."*
+*"I am thou, thou art I...*  
+*From the depths of the metaverse, we shall steal hearts through code.*  
+*Take your time... perfect algorithms await those who dare to rebel."*
+
+**- The Phantom Thieves of Code**
 
 </div>
 
-<div align="center">
+<!-- Persona 5 Footer -->
+<div align="center" style="margin-top: 50px;">
 
-![Footer](https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,3,6,9,12,15,18,21&height=150&section=footer&animation=blinking&fontColor=FFD700)
+![Persona 5 Footer](https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=31,0,1,2,3,4&height=200&section=footer&text=MISSION%20COMPLETE&fontSize=40&fontAlign=50&fontAlignY=35&desc=The%20Phantom%20Thieves%20of%20Code%20Strike%20Again&descAlign=50&descAlignY=65&animation=blinking&fontColor=FF0000&descSize=16&descColor=FFFFFF&stroke=000000&strokeWidth=2)
+
+<!-- Calling Card Final Message -->
+<div style="background: linear-gradient(45deg, #000000, #FF0000, #000000); border: 3px solid #FF0000; border-radius: 20px; padding: 25px; margin: 30px auto; max-width: 600px;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&weight=700&size=32&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=550&height=80&lines=CALLING+CARD+DELIVERED;YOUR+EXPECTATIONS+STOLEN;THANK+YOU+FOR+VISITING;STAY+REBELLIOUS!" alt="Final Calling Card" />
+</div>
 
 </div>
