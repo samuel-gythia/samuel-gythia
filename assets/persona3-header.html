@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Gythia - Quantum Researcher</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Exo+2:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .profile-header {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 25%, #3730a3 50%, #1e40af 75%, #0f172a 100%);
+            overflow: hidden;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0 10px 40px rgba(15, 23, 42, 0.6);
+        }
+
+        .cover-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.85;
+            filter: brightness(0.7) contrast(1.1) saturate(1.2);
+            transition: all 0.8s ease;
+        }
+
+        .cover-image:hover {
+            transform: scale(1.05);
+            filter: brightness(0.8) contrast(1.2) saturate(1.3);
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                135deg,
+                rgba(15, 23, 42, 0.6) 0%,
+                rgba(30, 58, 138, 0.4) 25%,
+                rgba(55, 48, 163, 0.3) 50%,
+                rgba(30, 64, 175, 0.4) 75%,
+                rgba(15, 23, 42, 0.6) 100%
+            );
+        }
+
+        .quantum-particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #FFD700;
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+            box-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700;
+        }
+
+        .particle:nth-child(odd) {
+            background: #87CEEB;
+            box-shadow: 0 0 10px #87CEEB, 0 0 20px #87CEEB, 0 0 30px #87CEEB;
+            animation-delay: -3s;
+        }
+
+        .profile-content {
+            position: absolute;
+            bottom: 20px;
+            left: 30px;
+            right: 30px;
+            display: flex;
+            align-items: flex-end;
+            gap: 25px;
+            z-index: 10;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #FFD700;
+            box-shadow: 
+                0 0 0 4px rgba(255, 215, 0, 0.3),
+                0 10px 30px rgba(0, 0, 0, 0.5),
+                0 0 40px rgba(255, 215, 0, 0.4);
+            transition: all 0.5s ease;
+            animation: pulse-glow 3s ease-in-out infinite;
+        }
+
+        .profile-picture:hover {
+            transform: scale(1.1);
+            box-shadow: 
+                0 0 0 6px rgba(255, 215, 0, 0.5),
+                0 15px 40px rgba(0, 0, 0, 0.7),
+                0 0 60px rgba(255, 215, 0, 0.6);
+        }
+
+        .profile-info {
+            flex: 1;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .profile-name {
+            font-family: 'Orbitron', monospace;
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #FFD700;
+            margin-bottom: 8px;
+            text-shadow: 
+                2px 2px 4px rgba(0, 0, 0, 0.8),
+                0 0 20px rgba(255, 215, 0, 0.5);
+            animation: text-glow 2s ease-in-out infinite alternate;
+        }
+
+        .profile-title {
+            font-family: 'Exo 2', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #87CEEB;
+            margin-bottom: 12px;
+            letter-spacing: 2px;
+        }
+
+        .profile-badges {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: rgba(15, 23, 42, 0.8);
+            color: #FFD700;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .badge:hover {
+            background: rgba(255, 215, 0, 0.2);
+            border-color: #FFD700;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+        }
+
+        .typing-animation {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 5;
+        }
+
+        .typing-text {
+            font-family: 'Orbitron', monospace;
+            font-size: 1.4rem;
+            color: #87CEEB;
+            opacity: 0.9;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            animation: type-fade 4s ease-in-out infinite;
+        }
+
+        .quantum-symbol {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            font-size: 2.5rem;
+            color: #FFD700;
+            opacity: 0.8;
+            animation: rotate-quantum 8s linear infinite;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+        }
+
+        /* Animations */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            25% { transform: translateY(-20px) translateX(10px); }
+            50% { transform: translateY(-10px) translateX(-5px); }
+            75% { transform: translateY(-25px) translateX(15px); }
+        }
+
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 0 4px rgba(255, 215, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 40px rgba(255, 215, 0, 0.4); }
+            50% { box-shadow: 0 0 0 8px rgba(255, 215, 0, 0.5), 0 15px 40px rgba(0, 0, 0, 0.7), 0 0 60px rgba(255, 215, 0, 0.6); }
+        }
+
+        @keyframes text-glow {
+            0% { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.5); }
+            100% { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 30px rgba(255, 215, 0, 0.8); }
+        }
+
+        @keyframes type-fade {
+            0%, 100% { opacity: 0.7; }
+            50% { opacity: 1; }
+        }
+
+        @keyframes rotate-quantum {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .profile-header { height: 300px; border-radius: 0 0 20px 20px; }
+            .profile-content { left: 20px; right: 20px; bottom: 15px; gap: 15px; flex-direction: column; align-items: flex-start; }
+            .profile-picture { width: 80px; height: 80px; }
+            .profile-name { font-size: 1.8rem; }
+            .profile-title { font-size: 1rem; }
+            .typing-text { font-size: 1.1rem; }
+            .quantum-symbol { font-size: 2rem; top: 20px; right: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-header">
+        <!-- Cover Image -->
+        <img src="https://raw.githubusercontent.com/samuel-gythia/samuel-gythia/main/assets/persona3-cover.jpg" 
+             alt="Persona 3 Reload Cover" 
+             class="cover-image">
+        
+        <!-- Overlay -->
+        <div class="overlay"></div>
+        
+        <!-- Quantum Particles Animation -->
+        <div class="quantum-particles" id="particles"></div>
+        
+        <!-- Quantum Symbol -->
+        <div class="quantum-symbol">⚛️</div>
+        
+        <!-- Typing Animation -->
+        <div class="typing-animation">
+            <div class="typing-text" id="typingText">◆ BRIDGING QUANTUM & CLASSICAL REALMS ◆</div>
+        </div>
+        
+        <!-- Profile Content -->
+        <div class="profile-content">
+            <img src="https://github.com/samuel-gythia.png" 
+                 alt="Samuel Gythia" 
+                 class="profile-picture">
+            
+            <div class="profile-info">
+                <h1 class="profile-name">Samuel Gythia</h1>
+                <p class="profile-title">◆ QUANTUM RESEARCHER ◆ THEORETICAL PHYSICIST ◆ DEVELOPER ◆</p>
+                
+                <div class="profile-badges">
+                    <span class="badge">🔬 Quantum Computing</span>
+                    <span class="badge">📚 PhD Candidate</span>
+                    <span class="badge">💻 Full-Stack Dev</span>
+                    <span class="badge">🌊 Physics Simulation</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Create floating quantum particles
+        function createParticles() {
+            const container = document.getElementById('particles');
+            const particleCount = 20;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animationDuration = (4 + Math.random() * 4) + 's';
+                particle.style.animationDelay = Math.random() * 2 + 's';
+                container.appendChild(particle);
+            }
+        }
+
+        // Typing animation text rotation
+        function startTypingAnimation() {
+            const texts = [
+                "◆ BRIDGING QUANTUM & CLASSICAL REALMS ◆",
+                "◆ COMPUTATIONAL PHYSICS RESEARCHER ◆",
+                "◆ ELEGANT CODE ARCHITECT ◆",
+                "◆ WHERE THEORY MEETS IMPLEMENTATION ◆"
+            ];
+            
+            let currentIndex = 0;
+            const typingElement = document.getElementById('typingText');
+            
+            setInterval(() => {
+                typingElement.style.opacity = '0';
+                
+                setTimeout(() => {
+                    currentIndex = (currentIndex + 1) % texts.length;
+                    typingElement.textContent = texts[currentIndex];
+                    typingElement.style.opacity = '1';
+                }, 500);
+            }, 4000);
+        }
+
+        // Initialize animations
+        document.addEventListener('DOMContentLoaded', () => {
+            createParticles();
+            startTypingAnimation();
+        });
+    </script>
+</body>
+</html>

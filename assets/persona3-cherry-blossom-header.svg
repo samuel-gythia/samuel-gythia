@@ -1,0 +1,154 @@
+<svg width="1000" height="400" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Cherry Blossom Gradient Background -->
+    <linearGradient id="cherryBlossomGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e27;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#1a237e;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#3949ab;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5e35b1;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Cherry Blossom Overlay -->
+    <radialGradient id="blossomOverlay" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffb6c8;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#ff91a4;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#f06292;stop-opacity:0.2" />
+    </radialGradient>
+    
+    <!-- Golden Text Gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Avatar Border Glow -->
+    <filter id="avatarGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Quantum Particle Glow -->
+    <filter id="particleGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="400" fill="url(#cherryBlossomGradient)"/>
+  <rect width="1000" height="400" fill="url(#blossomOverlay)"/>
+  
+  <!-- Cherry Blossom Petals Animation -->
+  <g opacity="0.6">
+    <circle r="4" fill="#ffb6c8">
+      <animateMotion dur="8s" repeatCount="indefinite">
+        <path d="M 100,80 Q 150,100 200,120 T 300,140 Q 350,160 400,180"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle r="3" fill="#ff91a4">
+      <animateMotion dur="10s" repeatCount="indefinite">
+        <path d="M 700,60 Q 650,80 600,100 T 500,120 Q 450,140 400,160"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle r="5" fill="#f06292">
+      <animateMotion dur="12s" repeatCount="indefinite">
+        <path d="M 900,140 Q 850,120 800,100 T 700,80 Q 650,60 600,40"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;0.7;0.7;0" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Quantum Particles -->
+  <g opacity="0.8" filter="url(#particleGlow)">
+    <circle cx="0" cy="0" r="1.5" fill="#FFD700">
+      <animateTransform attributeName="transform" type="translate" 
+        values="50,350; 100,300; 150,250; 200,200; 250,150; 300,100; 350,50" 
+        dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="0" cy="0" r="1" fill="#87CEEB">
+      <animateTransform attributeName="transform" type="translate" 
+        values="800,350; 750,300; 700,250; 650,200; 600,150; 550,100; 500,50" 
+        dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Profile Avatar Circle -->
+  <circle cx="170" cy="200" r="72" fill="none" stroke="#FFD700" stroke-width="4" filter="url(#avatarGlow)">
+    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Avatar Image Placeholder -->
+  <circle cx="170" cy="200" r="68" fill="#1a237e" stroke="#FFD700" stroke-width="2"/>
+  <text x="170" y="210" text-anchor="middle" fill="#FFD700" font-family="Orbitron" font-size="16" font-weight="bold">
+    AVATAR
+  </text>
+  
+  <!-- Persona 3 Quantum Symbol -->
+  <circle cx="920" cy="80" r="30" fill="url(#goldGradient)" opacity="0.9">
+    <animateTransform attributeName="transform" type="rotate" 
+      values="0 920 80; 360 920 80" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <text x="920" y="88" text-anchor="middle" fill="#0a0e27" font-family="Orbitron" font-size="24" font-weight="900">Ψ</text>
+  
+  <!-- Main Name Text -->
+  <text x="280" y="170" fill="url(#goldGradient)" font-family="Orbitron" font-size="48" font-weight="900">
+    Samuel Gythia
+    <animate attributeName="opacity" values="1;0.7;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Primary Title -->
+  <text x="280" y="200" fill="#87CEEB" font-family="Orbitron" font-size="20" font-weight="600" letter-spacing="2px">
+    ⚛️ QUANTUM RESEARCHER ⚛️
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="280" y="225" fill="#B0C4DE" font-family="Orbitron" font-size="16" font-weight="400">
+    THE ANSWER LIES IN QUANTUM COMPUTATION
+  </text>
+  
+  <!-- Quote Section -->
+  <text x="650" y="300" fill="#FFD700" font-family="Orbitron" font-size="18" font-style="italic" opacity="0.9">
+    "Bridging Quantum &amp; Classical Realms"
+  </text>
+  
+  <!-- Stats Grid -->
+  <g transform="translate(700, 320)">
+    <!-- Stat boxes -->
+    <rect x="0" y="0" width="80" height="40" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,215,0,0.3)"/>
+    <rect x="90" y="0" width="80" height="40" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,215,0,0.3)"/>
+    <rect x="0" y="50" width="80" height="40" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,215,0,0.3)"/>
+    <rect x="90" y="50" width="80" height="40" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,215,0,0.3)"/>
+    
+    <!-- Stat content -->
+    <text x="40" y="18" text-anchor="middle" fill="#FFD700" font-family="Orbitron" font-size="14" font-weight="700">∞</text>
+    <text x="40" y="32" text-anchor="middle" fill="#B0C4DE" font-family="Orbitron" font-size="8">POSSIBILITIES</text>
+    
+    <text x="130" y="18" text-anchor="middle" fill="#FFD700" font-family="Orbitron" font-size="14" font-weight="700">Ψ</text>
+    <text x="130" y="32" text-anchor="middle" fill="#B0C4DE" font-family="Orbitron" font-size="8">WAVE FUNCTION</text>
+    
+    <text x="40" y="68" text-anchor="middle" fill="#FFD700" font-family="Orbitron" font-size="14" font-weight="700">⚛️</text>
+    <text x="40" y="82" text-anchor="middle" fill="#B0C4DE" font-family="Orbitron" font-size="8">QUANTUM STATE</text>
+    
+    <text x="130" y="68" text-anchor="middle" fill="#FFD700" font-family="Orbitron" font-size="14" font-weight="700">🌊</text>
+    <text x="130" y="82" text-anchor="middle" fill="#B0C4DE" font-family="Orbitron" font-size="8">SUPERPOSITION</text>
+  </g>
+  
+  <!-- Decorative Lines -->
+  <line x1="50" y1="280" x2="950" y2="280" stroke="rgba(255,215,0,0.3)" stroke-width="1" opacity="0.5"/>
+  <line x1="50" y1="320" x2="600" y2="320" stroke="rgba(135,206,235,0.3)" stroke-width="1" opacity="0.5"/>
+  
+</svg>

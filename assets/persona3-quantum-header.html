@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Gythia - Quantum Researcher Profile</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .profile-header {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a237e 30%, #3949ab  70%, #5e35b1 100%);
+            overflow: hidden;
+            font-family: 'Orbitron', monospace;
+        }
+        
+        .cherry-blossom-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSI0MDAiIHZpZXdCb3g9IjAgMCAxMDAwIDQwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmZiNmM4O3N0b3Atb3BhY2l0eTowLjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmZjkxYTQ7c3RvcC1vcGFjaXR5OjAuMTUiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZjA2MjkyO3N0b3Atb3BhY2l0eTowLjIiLz4KPC9saW5lYXJHcmFkaWVudD4KPC9kZWZzPgo8cmVjdCB3aWR0aD0iMTAwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9InVybCgjZ3JhZGllbnQpIi8+CjwhLS0gQ2hlcnJ5IEJsb3Nzb20gUGV0YWxzIC0tPgo8Y2lyY2xlIGN4PSIxMDAiIGN5PSI4MCIgcj0iNSIgZmlsbD0iI2ZmYjZjOCIgb3BhY2l0eT0iMC44Ij4KPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJ0cmFuc2xhdGUiIHZhbHVlcz0iMCwwOzUwLDIwOzEwMCw0MDswLDYwOy01MCw4MDswLDEwMCIgZHVyPSI2cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz4KPC9jaXJjbGU+CjxjaXJjbGUgY3g9IjMwMCIgY3k9IjEyMCIgcj0iNCIgZmlsbD0iI2ZmOTFhNCIgb3BhY2l0eT0iMC43Ij4KPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJ0cmFuc2xhdGUiIHZhbHVlcz0iMCwwOy0zMCwxNTs2MCwzMDstNDAsNDU7MjAsNjA7MCw3NSIgZHVyPSI4cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz4KPC9jaXJjbGU+CjxjaXJjbGUgY3g9IjcwMCIgY3k9IjYwIiByPSI2IiBmaWxsPSIjZjA2MjkyIiBvcGFjaXR5PSIwLjYiPgo8YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgdmFsdWVzPSIwLDA7LTcwLDI1OzQwLDUwOy0yMCw3NTs2MCwxMDA7MCwxMjUiIGR1cj0iN3MiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+CjwvY2lyY2xlPgo8Y2lyY2xlIGN4PSI5MDAiIGN5PSIxNDAiIHI9IjMiIGZpbGw9IiNmZmI2YzgiIG9wYWNpdHk9IjAuOSI+CjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0idHJhbnNsYXRlIiB2YWx1ZXM9IjAsMDstNDAsMTA7MjAsMjA7LTEwLDMwOzMwLDQwOzAsNTAiIGR1cj0iNXMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+CjwvY2lyY2xlPgo8L3N2Zz4K') center/cover;
+            opacity: 0.3;
+            z-index: 1;
+        }
+        
+        .quantum-particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: #FFD700;
+            border-radius: 50%;
+            animation: float 8s infinite linear;
+            box-shadow: 0 0 6px #FFD700;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(400px) translateX(0px) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-100px) translateX(100px) rotate(360deg); opacity: 0; }
+        }
+        
+        .profile-content {
+            position: relative;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 60px;
+            height: 100%;
+        }
+        
+        .profile-left {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        
+        .profile-avatar {
+            position: relative;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid #FFD700;
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+            overflow: hidden;
+            animation: pulse-border 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-border {
+            0%, 100% { box-shadow: 0 0 30px rgba(255, 215, 0, 0.5); }
+            50% { box-shadow: 0 0 50px rgba(255, 215, 0, 0.8); }
+        }
+        
+        .profile-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .profile-info {
+            color: white;
+        }
+        
+        .profile-name {
+            font-size: 3.5rem;
+            font-weight: 900;
+            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: shimmer 3s ease-in-out infinite;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        @keyframes shimmer {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .profile-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #87CEEB;
+            margin-top: 10px;
+            letter-spacing: 2px;
+        }
+        
+        .profile-subtitle {
+            font-size: 1.1rem;
+            color: #B0C4DE;
+            margin-top: 8px;
+            font-weight: 400;
+        }
+        
+        .profile-right {
+            text-align: right;
+            color: white;
+        }
+        
+        .quantum-quote {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #FFD700;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .stat-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        
+        .stat-number {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #FFD700;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #B0C4DE;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .typing-animation {
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid #FFD700;
+            animation: typing 4s steps(40) infinite, blink-caret 0.75s step-end infinite;
+        }
+        
+        @keyframes typing {
+            0%, 20% { width: 0; }
+            80%, 100% { width: 100%; }
+        }
+        
+        @keyframes blink-caret {
+            0%, 50% { border-color: transparent; }
+            51%, 100% { border-color: #FFD700; }
+        }
+        
+        .persona3-emblem {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: #0a0e27;
+            animation: rotate 10s linear infinite;
+            z-index: 4;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-header">
+        <div class="cherry-blossom-overlay"></div>
+        
+        <div class="quantum-particles" id="particles"></div>
+        
+        <div class="persona3-emblem">Ψ</div>
+        
+        <div class="profile-content">
+            <div class="profile-left">
+                <div class="profile-avatar">
+                    <img src="https://github.com/samuel-gythia.png" alt="Samuel Gythia">
+                </div>
+                <div class="profile-info">
+                    <h1 class="profile-name">Samuel Gythia</h1>
+                    <div class="profile-title typing-animation">⚛️ QUANTUM RESEARCHER ⚛️</div>
+                    <div class="profile-subtitle">THE ANSWER LIES IN QUANTUM COMPUTATION</div>
+                </div>
+            </div>
+            
+            <div class="profile-right">
+                <div class="quantum-quote">"Bridging Quantum & Classical Realms"</div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Possibilities</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">Ψ</div>
+                        <div class="stat-label">Wave Function</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">⚛️</div>
+                        <div class="stat-label">Quantum State</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">🌊</div>
+                        <div class="stat-label">Superposition</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Create floating quantum particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            
+            for (let i = 0; i < 15; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 8 + 's';
+                particle.style.animationDuration = (6 + Math.random() * 4) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+        
+        // Cycling text animation
+        const titles = [
+            "⚛️ QUANTUM RESEARCHER ⚛️",
+            "📚 THEORETICAL PHYSICIST 📚", 
+            "💻 COMPUTATIONAL SCIENTIST 💻",
+            "🌊 FULL-STACK DEVELOPER 🌊"
+        ];
+        
+        let currentTitle = 0;
+        const titleElement = document.querySelector('.profile-title');
+        
+        function cycleTitle() {
+            titleElement.style.opacity = '0';
+            setTimeout(() => {
+                currentTitle = (currentTitle + 1) % titles.length;
+                titleElement.textContent = titles[currentTitle];
+                titleElement.style.opacity = '1';
+            }, 500);
+        }
+        
+        // Initialize
+        createParticles();
+        setInterval(cycleTitle, 4000);
+        
+        // Add transition effects
+        titleElement.style.transition = 'opacity 0.5s ease';
+    </script>
+</body>
+</html>
