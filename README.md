@@ -164,7 +164,7 @@ Persona: "Quantum Code Arsène"
 ### **🛠️ PHANTOM THIEF TOOLS**
 ![Git](https://img.shields.io/badge/Git-FFFFFF?style=for-the-badge&logo=git&logoColor=000000&labelColor=FF0000)
 ![GitHub](https://img.shields.io/badge/GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=000000&labelColor=FF0000)
-![VS Code](https://img.shields.io/badge/VS_Code-FFFFFF?style=for-the-badge&logo=visual-studio-code&logoColor=000000&labelColor=FF0000)
+![VS Code](https://img.shields.io/badge/VS_Code-FFFFFF?style=for-the-badge&logo=visualstudiocode&logoColor=000000&labelColor=FF0000)
 ![Linux](https://img.shields.io/badge/Linux-FFFFFF?style=for-the-badge&logo=linux&logoColor=000000&labelColor=FF0000)
 ![Docker](https://img.shields.io/badge/Docker-FFFFFF?style=for-the-badge&logo=docker&logoColor=000000&labelColor=FF0000)
 
