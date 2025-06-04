@@ -21,8 +21,8 @@
 <!-- Persona 5 Status Badges -->
 <p align="center" style="margin-top: 30px;">
   <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PROFILE+VIEWS&color=red&style=for-the-badge&labelColor=black" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/PHANTOM+THIEVES-42-red?style=for-the-badge&labelColor=black" alt="Followers" />
-  <img src="https://img.shields.io/badge/TREASURES-15-white?style=for-the-badge&labelColor=red" alt="Stars" />
+  <img src="https://img.shields.io/github/followers/samuel-gythia?label=PHANTOM+THIEVES&style=for-the-badge&color=red&labelColor=black" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/samuel-gythia?affiliations=OWNER&label=TREASURES&style=for-the-badge&color=white&labelColor=red" alt="GitHub Stars" />
 </p>
 
 </div>
@@ -152,14 +152,14 @@ Persona: "Quantum Code Arsène"
 <div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 15px; padding: 30px; border: 2px solid #FF0000;">
 
 ### **⚛️ PHANTOM SCIENTIFIC ARSENAL**
-![Python](https://img.shields.io/badge/Python-FFFFFF?style=for-the-badge&logo=python&logoColor=000000&labelColor=FF0000)
-![Jupyter](https://img.shields.io/badge/Jupyter-FFFFFF?style=for-the-badge&logo=Jupyter&logoColor=000000&labelColor=FF0000)
-![NumPy](https://img.shields.io/badge/NumPy-FFFFFF?style=for-the-badge&logo=numpy&logoColor=000000&labelColor=FF0000)
-![SciPy](https://img.shields.io/badge/SciPy-FFFFFF?style=for-the-badge&logo=SciPy&logoColor=000000&labelColor=FF0000)
-![QuTiP](https://img.shields.io/badge/QuTiP-FFFFFF?style=for-the-badge&logoColor=000000&labelColor=FF0000)
-![Qiskit](https://img.shields.io/badge/Qiskit-FFFFFF?style=for-the-badge&logo=qiskit&logoColor=000000&labelColor=FF0000)
-![Cirq](https://img.shields.io/badge/Cirq-FFFFFF?style=for-the-badge&logo=google&logoColor=000000&labelColor=FF0000)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-FFFFFF?style=for-the-badge&logoColor=000000&labelColor=FF0000)
+![Python](https://img.shields.io/badge/Python-FF0000?style=for-the-badge&logo=python&logoColor=FFFFFF&labelColor=000000)
+![Jupyter](https://img.shields.io/badge/Jupyter-FF0000?style=for-the-badge&logo=Jupyter&logoColor=FFFFFF&labelColor=000000)
+![NumPy](https://img.shields.io/badge/NumPy-FF0000?style=for-the-badge&logo=numpy&logoColor=FFFFFF&labelColor=000000)
+![SciPy](https://img.shields.io/badge/SciPy-FF0000?style=for-the-badge&logo=SciPy&logoColor=FFFFFF&labelColor=000000)
+![QuTiP](https://img.shields.io/badge/QuTiP-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000)
+![Qiskit](https://img.shields.io/badge/Qiskit-FF0000?style=for-the-badge&logo=qiskit&logoColor=FFFFFF&labelColor=000000)
+![Cirq](https://img.shields.io/badge/Cirq-FF0000?style=for-the-badge&logo=google&logoColor=FFFFFF&labelColor=000000)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000)
 
 ### **🛠️ PHANTOM THIEF TOOLS**
 ![Git](https://img.shields.io/badge/Git-FFFFFF?style=for-the-badge&logo=git&logoColor=000000&labelColor=FF0000)
@@ -180,46 +180,17 @@ Persona: "Quantum Code Arsène"
 
 <div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 30px; border: 2px solid #FF0000;">
 
-### 🎯 **CURRENT HEIST STATUS**
+<!-- Persona 5 Themed GitHub Stats -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samuel-gythia&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117,330000,000000&icon_color=ff0000&text_color=ffffff&title_color=ff0000&include_all_commits=true&count_private=true&border_radius=15&custom_title=🎭%20Phantom%20Thief%20Stats&ring_color=ff0000&fire_color=ff0000" />
 
-<table width="100%">
-<tr>
-<td align="center" width="33%" style="padding: 20px;">
-
-#### 📊 **SAMUEL GYTHIA STATS**
-- **Total Commits:** 198
-- **Total Repositories:** 12
-- **Main Languages:** Python, Jupyter
-- **Quantum Projects:** 8 Active
-
-</td>
-<td align="center" width="33%" style="padding: 20px;">
-
-#### 🔥 **CURRENT STREAK**
-- **Current:** 2 days
-- **Longest:** 10 days
-- **This Year:** 128 contributions
-- **Status:** Active Phantom
-
-</td>
-<td align="center" width="33%" style="padding: 20px;">
-
-#### 🎭 **PHANTOM ACTIVITY**
-- **Most Used:** Python (45%)
-- **Jupyter Notebooks:** (35%)
-- **Documentation:** (15%)
-- **Other Languages:** (5%)
-
-</td>
-</tr>
-</table>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samuel-gythia&theme=tokyonight&hide_border=true&background=0d1117,330000,000000&stroke=ff0000&ring=ff0000&fire=ff0000&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff&border_radius=15&excludeDaysLabel=ffffff" />
 
 </div>
 
 <div align="center" style="margin-top: 20px;">
 
-### 🎮 **PHANTOM THIEF CODENAME: QUANTUM**
-*"In the Metaverse of Code, every algorithm is a treasure to steal!"*
+<!-- Persona 5 Themed Language Stats -->
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117,330000,000000&text_color=ffffff&title_color=ff0000&langs_count=8&include_all_commits=true&count_private=true&border_radius=15&card_width=600&custom_title=🔥%20Phantom%20Arsenal%20Languages" />
 
 </div>
 
@@ -231,15 +202,22 @@ Persona: "Quantum Code Arsène"
 
 </div>
 
-<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 30px; border: 2px solid #FF0000;">
+<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 20px; border: 2px solid #FF0000;">
 
-### 🗓️ **RECENT PHANTOM HEISTS**
+<!-- Persona 5 Themed Contribution Graph -->
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=samuel-gythia&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=ff0000&line=ffffff&point=ff0000&area=true&area_color=330000&custom_title=🎭%20Phantom%20Thief%20Heist%20Activity%20Graph&height=300" alt="GitHub Commit Graph" />
+
+</div>
+
+<div align="center" style="margin-top: 30px; background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 15px; padding: 25px; border: 2px solid #FF0000;">
+
+### 🎯 **RECENT PHANTOM ACCOMPLISHMENTS**
 
 <table width="100%">
 <tr>
 <td align="center" width="50%" style="padding: 20px;">
 
-#### 🔥 **MAJOR ACCOMPLISHMENTS**
+#### 🔥 **MAJOR HEISTS COMPLETED**
 - ✨ Enhanced Persona 5 Banner Design
 - 🎭 Quantum Physics Portfolio Launch  
 - 🔐 Phantom Thief Theme Implementation
@@ -248,7 +226,7 @@ Persona: "Quantum Code Arsène"
 </td>
 <td align="center" width="50%" style="padding: 20px;">
 
-#### 🎯 **CURRENT TARGETS**
+#### 🎯 **NEXT TARGETS**
 - 🎪 PhD Application Preparation
 - 🌟 Quantum Computing Research
 - 🎨 Advanced Portfolio Features
