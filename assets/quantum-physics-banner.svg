@@ -1,52 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" style="background: linear-gradient(135deg, #000000 0%, #330000 25%, #FF0000 50%, #330000 75%, #000000 100%);">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" style="background: linear-gradient(135deg, #6B46C1 0%, #3B82F6 25%, #1E40AF 50%, #3730A3 75%, #312E81 100%);">
   <defs>
     <style>
       .quantum-text { font-family: 'Bebas Neue', Arial, sans-serif; font-weight: 400; }
       .equation-text { font-family: 'Times New Roman', serif; font-style: italic; }
-      .glow { filter: drop-shadow(0 0 8px #FF0000); }
+      .glow { filter: drop-shadow(0 0 8px #60A5FA); }
       .pulse { animation: pulse 3s ease-in-out infinite; }
       @keyframes pulse {
         0%, 100% { opacity: 0.8; }
         50% { opacity: 1; }
       }
     </style>
-    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FF0000;stop-opacity:0.2" />
-      <stop offset="50%" style="stop-color:#FF0000;stop-opacity:0.8" />
-      <stop offset="100%" style="stop-color:#FF0000;stop-opacity:0.2" />
+    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:0.2" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#60A5FA;stop-opacity:0.2" />
     </linearGradient>
     <radialGradient id="atomGlow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.9" />
-      <stop offset="70%" style="stop-color:#FF0000;stop-opacity:0.6" />
-      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.3" />
+      <stop offset="70%" style="stop-color:#60A5FA;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#312E81;stop-opacity:0.3" />
     </radialGradient>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="300" fill="url(#redGlow)" />
-  
-  <!-- Quantum Wave Pattern -->
+  <rect width="1200" height="300" fill="url(#blueGlow)" />
+    <!-- Quantum Wave Pattern -->
   <path d="M0 150 Q 150 100 300 150 T 600 150 T 900 150 T 1200 150" 
-        stroke="#FF0000" stroke-width="2" fill="none" opacity="0.6" class="pulse"/>
+        stroke="#60A5FA" stroke-width="2" fill="none" opacity="0.6" class="pulse"/>
   <path d="M0 180 Q 150 130 300 180 T 600 180 T 900 180 T 1200 180" 
         stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.4"/>
 
   <!-- Atom Symbol -->
   <g transform="translate(100, 150)">
     <circle cx="0" cy="0" r="8" fill="url(#atomGlow)" class="pulse"/>
-    <ellipse cx="0" cy="0" rx="40" ry="15" stroke="#FF0000" stroke-width="2" fill="none" opacity="0.8"/>
-    <ellipse cx="0" cy="0" rx="15" ry="40" stroke="#FF0000" stroke-width="2" fill="none" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="40" ry="15" stroke="#60A5FA" stroke-width="2" fill="none" opacity="0.8"/>
+    <ellipse cx="0" cy="0" rx="15" ry="40" stroke="#60A5FA" stroke-width="2" fill="none" opacity="0.8"/>
     <ellipse cx="0" cy="0" rx="35" ry="35" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.5"/>
   </g>
-
   <!-- Main Title -->
   <text x="300" y="120" class="quantum-text glow" font-size="36" fill="#FFFFFF">
-    QUANTUM PHYSICS RESEARCH
+    Samuel Gythia
   </text>
-  
-  <!-- Subtitle -->
-  <text x="300" y="160" class="quantum-text" font-size="20" fill="#FF0000">
-    COMPUTATIONAL PHYSICS • QUANTUM ALGORITHMS • SIMULATION
+    <!-- Subtitle -->
+  <text x="300" y="160" class="quantum-text" font-size="20" fill="#60A5FA">
+    Quantum Computing • Theoretical Physics • Research
   </text>
 
   <!-- Schrödinger Equation -->
@@ -56,34 +53,33 @@
 
   <!-- Quantum Particles -->
   <g class="pulse">
-    <circle cx="900" cy="80" r="3" fill="#FF0000" opacity="0.8"/>
+    <circle cx="900" cy="80" r="3" fill="#60A5FA" opacity="0.8"/>
     <circle cx="950" cy="120" r="2" fill="#FFFFFF" opacity="0.9"/>
-    <circle cx="980" cy="90" r="2.5" fill="#FF0000" opacity="0.7"/>
+    <circle cx="980" cy="90" r="2.5" fill="#60A5FA" opacity="0.7"/>
     <circle cx="1020" cy="110" r="2" fill="#FFFFFF" opacity="0.8"/>
-    <circle cx="1050" cy="85" r="3" fill="#FF0000" opacity="0.9"/>
+    <circle cx="1050" cy="85" r="3" fill="#60A5FA" opacity="0.9"/>
   </g>
-
   <!-- Energy Level Diagram -->
   <g transform="translate(900, 180)">
     <line x1="0" y1="0" x2="150" y2="0" stroke="#FFFFFF" stroke-width="2" opacity="0.8"/>
-    <line x1="0" y1="20" x2="150" y2="20" stroke="#FF0000" stroke-width="2" opacity="0.8"/>
+    <line x1="0" y1="20" x2="150" y2="20" stroke="#60A5FA" stroke-width="2" opacity="0.8"/>
     <line x1="0" y1="40" x2="150" y2="40" stroke="#FFFFFF" stroke-width="2" opacity="0.8"/>
-    <line x1="0" y1="60" x2="150" y2="60" stroke="#FF0000" stroke-width="2" opacity="0.8"/>
+    <line x1="0" y1="60" x2="150" y2="60" stroke="#60A5FA" stroke-width="2" opacity="0.8"/>
     
     <!-- Transition Arrows -->
     <path d="M20 60 L20 40" stroke="#FFFFFF" stroke-width="1" marker-end="url(#arrow)" opacity="0.7"/>
-    <path d="M50 40 L50 20" stroke="#FF0000" stroke-width="1" marker-end="url(#arrow)" opacity="0.7"/>
+    <path d="M50 40 L50 20" stroke="#60A5FA" stroke-width="1" marker-end="url(#arrow)" opacity="0.7"/>
     <path d="M80 20 L80 0" stroke="#FFFFFF" stroke-width="1" marker-end="url(#arrow)" opacity="0.7"/>
   </g>
 
   <!-- Quantum Entanglement Symbol -->
   <g transform="translate(1050, 150)">
-    <circle cx="-15" cy="0" r="6" fill="none" stroke="#FF0000" stroke-width="2" opacity="0.8"/>
-    <circle cx="15" cy="0" r="6" fill="none" stroke="#FF0000" stroke-width="2" opacity="0.8"/>
+    <circle cx="-15" cy="0" r="6" fill="none" stroke="#60A5FA" stroke-width="2" opacity="0.8"/>
+    <circle cx="15" cy="0" r="6" fill="none" stroke="#60A5FA" stroke-width="2" opacity="0.8"/>
     <path d="M-9 0 Q 0 -10 9 0 Q 0 10 -9 0" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.8"/>
   </g>
 
   <!-- Border Frame -->
-  <rect x="5" y="5" width="1190" height="290" fill="none" stroke="#FF0000" stroke-width="3" opacity="0.8"/>
+  <rect x="5" y="5" width="1190" height="290" fill="none" stroke="#60A5FA" stroke-width="3" opacity="0.8"/>
   
 </svg>
