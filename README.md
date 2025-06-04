@@ -198,19 +198,7 @@ Persona: "Quantum Code Arsène"
 
 <div align="center" style="margin-top: 20px;">
 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=compact&theme=radical&hide_border=true&bg_color=000000&text_color=FFFFFF&title_color=FF0000&langs_count=10&include_all_commits=true&count_private=true&border_radius=15&card_width=600&custom_title=PHANTOM%20CODE%20LANGUAGES" />
-
-</div>
-
-<div align="center" style="margin-top: 15px;">
-
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=donut-vertical&theme=radical&hide_border=true&bg_color=000000&text_color=FFFFFF&title_color=FF0000&langs_count=6&border_radius=15&custom_title=PHANTOM%20SKILL%20DISTRIBUTION" />
-
-</div>
-
-<div align="center" style="margin-top: 15px;">
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&theme=radical&hide_border=true&bg_color=000000&text_color=FFFFFF&title_color=FF0000&layout=pie&langs_count=8&border_radius=15)](https://github.com/anuraghazra/github-readme-stats)
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=compact&theme=radical&hide_border=true&bg_color=000000&text_color=FFFFFF&title_color=FF0000&langs_count=10&include_all_commits=true&count_private=true&border_radius=15&card_width=600&custom_title=MOST%20USED%20LANGUAGES" />
 
 </div>
 
