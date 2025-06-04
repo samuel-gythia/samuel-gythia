@@ -47,7 +47,8 @@
 /* Optimize font loading */
 @font-face {
     font-family: 'Bebas Neue';
-    font-display: swap; /* Improves loading performance */
+    font-display: swap;
+    /* Improves loading performance */
     src: local('Bebas Neue'), url('https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXooxW5rygbi49c.woff2') format('woff2');
 }
 

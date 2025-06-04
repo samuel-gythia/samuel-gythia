@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs every 6 hours to refresh stats
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch:
 
 permissions:
   contents: write
