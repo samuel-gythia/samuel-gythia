@@ -244,7 +244,7 @@ Persona: "Quantum Code Arsène"
 
 <div align="center">
 
-## 📫 **PHANTOM COMMUNICATION NEXUS**
+## 🎴 **CALLING CARD**
 
 </div>
 
@@ -254,7 +254,7 @@ Persona: "Quantum Code Arsène"
   <img src="https://img.shields.io/badge/EMAIL-samuel.gythia@outlook.com-FFD700?style=flat-square&logo=gmail&logoColor=0f172a&labelColor=dc2626" />
 </a>
 <a href="https://guns.lol/samuelgythia">
-  <img src="https://img.shields.io/badge/🎭_PHANTOM-guns.lol/samuelgythia-FF0000?style=for-the-badge&logo=linkfire&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🎭_ALL_LINKS-guns.lol/samuelgythia-FF0000?style=for-the-badge&logo=linkfire&logoColor=FFFFFF&labelColor=000000" />
 </a>
 <a href="https://github.com/samuel-gythia">
   <img src="https://img.shields.io/badge/🎯_GITHUB-samuel--gythia-FF0000?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=000000" />
