@@ -20,9 +20,9 @@
 
 <!-- Persona 5 Status Badges -->
 <p align="center" style="margin-top: 30px;">
-  <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PROFILE+VIEWS&color=FF0000&style=for-the-badge&labelColor=000000" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/samuel-gythia?label=PHANTOM+THIEVES&style=for-the-badge&color=FF0000&labelColor=000000" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/samuel-gythia?label=TREASURES&style=for-the-badge&color=FFFFFF&labelColor=FF0000" alt="GitHub Stars" />
+  <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PROFILE+VIEWS&color=dc2626&style=for-the-badge&labelColor=000000" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/samuel-gythia?label=PHANTOM+THIEVES&style=for-the-badge&color=dc2626&labelColor=000000" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/samuel-gythia?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=ffffff&labelColor=dc2626&label=TREASURES" alt="GitHub Stars" />
 </p>
 
 </div>
@@ -180,14 +180,14 @@ Persona: "Quantum Code Arsène"
 
 <div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 30px; border: 2px solid #FF0000;">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samuel-gythia&show_icons=true&theme=radical&hide_border=true&bg_color=000000&icon_color=FF0000&text_color=FFFFFF&title_color=FF0000&include_all_commits=true&count_private=true&border_radius=15&custom_title=Samuel%20Gythia%20Stats&cache_seconds=300" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samuel-gythia&theme=radical&hide_border=true&background=000000&stroke=FF0000&ring=FF0000&fire=FF0000&currStreakLabel=FFFFFF&border_radius=15&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=300" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samuel-gythia&show_icons=true&theme=radical&hide_border=true&bg_color=000000&icon_color=dc2626&text_color=ffffff&title_color=dc2626&include_all_commits=true&count_private=true&border_radius=15&custom_title=Samuel%20Gythia%20Stats" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samuel-gythia&theme=radical&hide_border=true&background=000000&stroke=dc2626&ring=dc2626&fire=dc2626&currStreakLabel=ffffff&border_radius=15&date_format=M%20j%5B%2C%20Y%5D" />
 
 </div>
 
 <div align="center" style="margin-top: 20px;">
 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=compact&theme=radical&hide_border=true&bg_color=000000&text_color=FFFFFF&title_color=FF0000&langs_count=10&include_all_commits=true&count_private=true&border_radius=15&card_width=600&custom_title=Most%20Used%20Languages&cache_seconds=300" />
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=compact&theme=radical&hide_border=true&bg_color=000000&text_color=ffffff&title_color=dc2626&langs_count=10&include_all_commits=true&count_private=true&border_radius=15&card_width=600&custom_title=Most%20Used%20Languages" />
 
 </div>
 
@@ -201,7 +201,7 @@ Persona: "Quantum Code Arsène"
 
 <div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 20px; border: 2px solid #FF0000;">
 
-![GitHub Commit Graph](https://github-readme-activity-graph.vercel.app/graph?username=samuel-gythia&theme=high-contrast&hide_border=true&bg_color=000000&color=FF0000&line=FFFFFF&point=FF0000&area=false&custom_title=Samuel%20Gythia%20Contribution%20Graph)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=samuel-gythia&theme=high-contrast&hide_border=true&bg_color=000000&color=dc2626&line=ffffff&point=dc2626&area=false&custom_title=Samuel%20Gythia%20Contribution%20Graph" alt="GitHub Commit Graph" />
 
 </div>
 
