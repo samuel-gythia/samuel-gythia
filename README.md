@@ -155,16 +155,16 @@ Persona: "Quantum Code Arsène"
 ![Python](https://img.shields.io/badge/Python-FF0000?style=for-the-badge&logo=python&logoColor=FFFFFF&labelColor=000000)
 ![Jupyter](https://img.shields.io/badge/Jupyter-FF0000?style=for-the-badge&logo=Jupyter&logoColor=FFFFFF&labelColor=000000)
 ![NumPy](https://img.shields.io/badge/NumPy-FF0000?style=for-the-badge&logo=numpy&logoColor=FFFFFF&labelColor=000000)
-![SciPy](https://img.shields.io/badge/SciPy-FF0000?style=for-the-badge&logo=SciPy&logoColor=FFFFFF&labelColor=000000)
+![SciPy](https://img.shields.io/badge/SciPy-FF0000?style=for-the-badge&logo=scipy&logoColor=FFFFFF&labelColor=000000)
 ![QuTiP](https://img.shields.io/badge/QuTiP-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000)
 ![Qiskit](https://img.shields.io/badge/Qiskit-FF0000?style=for-the-badge&logo=qiskit&logoColor=FFFFFF&labelColor=000000)
 ![Cirq](https://img.shields.io/badge/Cirq-FF0000?style=for-the-badge&logo=google&logoColor=FFFFFF&labelColor=000000)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-FF0000?style=for-the-badge&logo=matplotlib&logoColor=FFFFFF&labelColor=000000)
 
 ### **🛠️ PHANTOM THIEF TOOLS**
 ![Git](https://img.shields.io/badge/Git-FFFFFF?style=for-the-badge&logo=git&logoColor=000000&labelColor=FF0000)
 ![GitHub](https://img.shields.io/badge/GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=000000&labelColor=FF0000)
-![VS Code](https://img.shields.io/badge/VS_Code-FFFFFF?style=for-the-badge&logo=visual%20studio%20code&logoColor=000000&labelColor=FF0000)
+![VS Code](https://img.shields.io/badge/VS_Code-FFFFFF?style=for-the-badge&logo=visualstudiocode&logoColor=000000&labelColor=FF0000)
 ![Linux](https://img.shields.io/badge/Linux-FFFFFF?style=for-the-badge&logo=linux&logoColor=000000&labelColor=FF0000)
 ![Docker](https://img.shields.io/badge/Docker-FFFFFF?style=for-the-badge&logo=docker&logoColor=000000&labelColor=FF0000)
 
