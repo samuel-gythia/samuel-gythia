@@ -164,7 +164,7 @@ Persona: "Quantum Code Arsène"
 ### **🛠️ PHANTOM THIEF TOOLS**
 ![Git](https://img.shields.io/badge/Git-FFFFFF?style=for-the-badge&logo=git&logoColor=000000&labelColor=FF0000)
 ![GitHub](https://img.shields.io/badge/GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=000000&labelColor=FF0000)
-![VS Code](https://img.shields.io/badge/VS_Code-FFFFFF?style=for-the-badge&logo=visualstudiocode&logoColor=000000&labelColor=FF0000)
+![VS Code](https://img.shields.io/badge/VS_Code-FFFFFF?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE4IDJIMTNDMTIuNDUgMiAxMiAyLjQ1IDEyIDNWMjFDMTIgMjEuNTUgMTIuNDUgMjIgMTMgMjJIMThDMTguNTUgMjIgMTkgMjEuNTUgMTkgMjFWM0MxOSAyLjQ1IDE4LjU1IDIgMTggMlpNNiA2SDlWMThINlY2WiIgZmlsbD0iIzAwMDAwMCIvPgo8L3N2Zz4K&logoColor=000000&labelColor=FF0000)
 ![Linux](https://img.shields.io/badge/Linux-FFFFFF?style=for-the-badge&logo=linux&logoColor=000000&labelColor=FF0000)
 ![Docker](https://img.shields.io/badge/Docker-FFFFFF?style=for-the-badge&logo=docker&logoColor=000000&labelColor=FF0000)
 
