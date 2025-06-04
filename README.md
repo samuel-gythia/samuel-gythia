@@ -20,9 +20,9 @@
 
 <!-- Persona 5 Status Badges -->
 <p align="center" style="margin-top: 30px;">
-  <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PROFILE+VIEWS&color=dc2626&style=for-the-badge&labelColor=000000" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/samuel-gythia?label=PHANTOM+THIEVES&style=for-the-badge&color=dc2626&labelColor=000000" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/samuel-gythia?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=ffffff&labelColor=dc2626&label=TREASURES" alt="GitHub Stars" />
+  <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PROFILE+VIEWS&color=red&style=for-the-badge&labelColor=black" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/PHANTOM+THIEVES-42-red?style=for-the-badge&labelColor=black" alt="Followers" />
+  <img src="https://img.shields.io/badge/TREASURES-15-white?style=for-the-badge&labelColor=red" alt="Stars" />
 </p>
 
 </div>
@@ -180,14 +180,46 @@ Persona: "Quantum Code Arsène"
 
 <div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 30px; border: 2px solid #FF0000;">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samuel-gythia&show_icons=true&theme=radical&hide_border=true&bg_color=000000&icon_color=dc2626&text_color=ffffff&title_color=dc2626&include_all_commits=true&count_private=true&border_radius=15&custom_title=Samuel%20Gythia%20Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samuel-gythia&theme=radical&hide_border=true&background=000000&stroke=dc2626&ring=dc2626&fire=dc2626&currStreakLabel=ffffff&border_radius=15&date_format=M%20j%5B%2C%20Y%5D" />
+### 🎯 **CURRENT HEIST STATUS**
+
+<table width="100%">
+<tr>
+<td align="center" width="33%" style="padding: 20px;">
+
+#### 📊 **SAMUEL GYTHIA STATS**
+- **Total Commits:** 198
+- **Total Repositories:** 12
+- **Main Languages:** Python, Jupyter
+- **Quantum Projects:** 8 Active
+
+</td>
+<td align="center" width="33%" style="padding: 20px;">
+
+#### 🔥 **CURRENT STREAK**
+- **Current:** 2 days
+- **Longest:** 10 days
+- **This Year:** 128 contributions
+- **Status:** Active Phantom
+
+</td>
+<td align="center" width="33%" style="padding: 20px;">
+
+#### 🎭 **PHANTOM ACTIVITY**
+- **Most Used:** Python (45%)
+- **Jupyter Notebooks:** (35%)
+- **Documentation:** (15%)
+- **Other Languages:** (5%)
+
+</td>
+</tr>
+</table>
 
 </div>
 
 <div align="center" style="margin-top: 20px;">
 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=compact&theme=radical&hide_border=true&bg_color=000000&text_color=ffffff&title_color=dc2626&langs_count=10&include_all_commits=true&count_private=true&border_radius=15&card_width=600&custom_title=Most%20Used%20Languages" />
+### 🎮 **PHANTOM THIEF CODENAME: QUANTUM**
+*"In the Metaverse of Code, every algorithm is a treasure to steal!"*
 
 </div>
 
@@ -195,13 +227,36 @@ Persona: "Quantum Code Arsène"
 
 <div align="center">
 
-## 📊 **PHANTOM COMMIT ACTIVITY**
+## 📈 **PHANTOM COMMIT ACTIVITY**
 
 </div>
 
-<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 20px; border: 2px solid #FF0000;">
+<div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 30px; border: 2px solid #FF0000;">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=samuel-gythia&theme=high-contrast&hide_border=true&bg_color=000000&color=dc2626&line=ffffff&point=dc2626&area=false&custom_title=Samuel%20Gythia%20Contribution%20Graph" alt="GitHub Commit Graph" />
+### 🗓️ **RECENT PHANTOM HEISTS**
+
+<table width="100%">
+<tr>
+<td align="center" width="50%" style="padding: 20px;">
+
+#### 🔥 **MAJOR ACCOMPLISHMENTS**
+- ✨ Enhanced Persona 5 Banner Design
+- 🎭 Quantum Physics Portfolio Launch  
+- 🔐 Phantom Thief Theme Implementation
+- ⚡ Advanced SVG Animations Added
+
+</td>
+<td align="center" width="50%" style="padding: 20px;">
+
+#### 🎯 **CURRENT TARGETS**
+- 🎪 PhD Application Preparation
+- 🌟 Quantum Computing Research
+- 🎨 Advanced Portfolio Features
+- 🎭 Community Engagement Growth
+
+</td>
+</tr>
+</table>
 
 </div>
 
