@@ -47,18 +47,18 @@
 ### 🎯 **PHANTOM ALGORITHMS**
 
 <a href="https://github.com/samuel-gythia/bose-hubbard-mott-transition">
-  <img src="https://img.shields.io/badge/🔥_Bose--Hubbard-Heart_Steal-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🔥_Bose--Hubbard-Mott_Transition-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/lattice-qed-schwinger-model">
-  <img src="https://img.shields.io/badge/⚡_Lattice_QED-Palace_Infiltration-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/⚡_Lattice_QED-Schwinger_Model-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/optomechanical-cavity-cooling">
-  <img src="https://img.shields.io/badge/🎭_Cavity-Phantom_Ops-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🎭_Cavity-Cooling_System-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
-*◆ Stealing hearts through quantum transitions ◆*
+*◆ Quantum many-body systems and phase transitions ◆*
 
 </td>
 <td align="center" width="33%" style="padding: 20px;">
@@ -66,18 +66,18 @@
 ### 🌟 **METAVERSE OPTICS**
 
 <a href="https://github.com/samuel-gythia/continuous-variable-squeezing">
-  <img src="https://img.shields.io/badge/✨_CV_Squeezing-Calling_Card-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/✨_CV_Squeezing-Research_Project-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/fdtd-photonic-waveguide-coupling">
-  <img src="https://img.shields.io/badge/🎪_FDTD-Phantom_Coupling-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🎪_FDTD-Waveguide_Coupling-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/microring-photonic-modulator">
-  <img src="https://img.shields.io/badge/🎨_Microring-Treasure_Hunt-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🎨_Microring-Photonic_Modulator-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
-*◆ Manipulating light like a phantom thief ◆*
+*◆ Photonic systems and optical quantum computing ◆*
 
 </td>
 <td align="center" width="33%" style="padding: 20px;">
@@ -85,18 +85,18 @@
 ### 🎭 **COGNITIVE COMPUTING**
 
 <a href="https://github.com/samuel-gythia/quantum-clifford-verification">
-  <img src="https://img.shields.io/badge/🔐_Clifford-Persona_Awakening-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🔐_Clifford-Verification_Protocol-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/quantum-ml-verification-confidence">
-  <img src="https://img.shields.io/badge/🧠_ML-All_Out_Attack-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🧠_ML-Verification_Confidence-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
 <a href="https://github.com/samuel-gythia/nv-diamond-magnetometry">
-  <img src="https://img.shields.io/badge/💎_NV_Centers-Velvet_Room-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/💎_NV_Centers-Diamond_Magnetometry-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
 </a>
 
-*◆ Algorithm rebellion in progress ◆*
+*◆ Machine learning and quantum algorithm verification ◆*
 
 </td>
 </tr>
@@ -180,14 +180,14 @@ Persona: "Quantum Code Arsène"
 
 <div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 30px; border: 2px solid #FF0000;">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samuel-gythia&show_icons=true&theme=radical&hide_border=true&bg_color=000000&icon_color=FF0000&text_color=FFFFFF&title_color=FF0000&include_all_commits=true&count_private=true&border_radius=15" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samuel-gythia&theme=radical&hide_border=true&background=000000&stroke=FF0000&ring=FF0000&fire=FF0000&currStreakLabel=FFFFFF&border_radius=15" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=samuel-gythia&show_icons=true&theme=radical&hide_border=true&bg_color=000000&icon_color=FF0000&text_color=FFFFFF&title_color=FF0000&include_all_commits=true&count_private=true&border_radius=15&custom_title=Samuel%20Gythia%20Stats&cache_seconds=1800" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=samuel-gythia&theme=radical&hide_border=true&background=000000&stroke=FF0000&ring=FF0000&fire=FF0000&currStreakLabel=FFFFFF&border_radius=15&date_format=M%20j%5B%2C%20Y%5D" />
 
 </div>
 
 <div align="center" style="margin-top: 20px;">
 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=compact&theme=radical&hide_border=true&bg_color=000000&text_color=FFFFFF&title_color=FF0000&langs_count=10&include_all_commits=true&count_private=true&border_radius=15&card_width=600&custom_title=MOST%20USED%20LANGUAGES" />
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuel-gythia&layout=compact&theme=radical&hide_border=true&bg_color=000000&text_color=FFFFFF&title_color=FF0000&langs_count=10&include_all_commits=true&count_private=true&border_radius=15&card_width=600&custom_title=Most%20Used%20Languages&cache_seconds=1800" />
 
 </div>
 
@@ -201,7 +201,7 @@ Persona: "Quantum Code Arsène"
 
 <div align="center" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 20px; padding: 20px; border: 2px solid #FF0000;">
 
-![GitHub Commit Graph](https://github-readme-activity-graph.vercel.app/graph?username=samuel-gythia&theme=high-contrast&hide_border=true&bg_color=000000&color=FF0000&line=FFFFFF&point=FF0000&area=false)
+![GitHub Commit Graph](https://github-readme-activity-graph.vercel.app/graph?username=samuel-gythia&theme=high-contrast&hide_border=true&bg_color=000000&color=FF0000&line=FFFFFF&point=FF0000&area=false&custom_title=Samuel%20Gythia%20Contribution%20Graph)
 
 </div>
 
