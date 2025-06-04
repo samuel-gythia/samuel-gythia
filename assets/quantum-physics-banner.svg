@@ -67,9 +67,8 @@
   <text x="600" y="135" font-family="'JetBrains Mono', monospace" font-size="32" font-weight="700" fill="#f8f8f2" text-anchor="middle" filter="url(#glow)">
     Samuel Gythia
   </text>
-  
-  <text x="600" y="165" font-family="'JetBrains Mono', monospace" font-size="14" fill="#bd93f9" text-anchor="middle" opacity="0.9">
-    Quantum Computing • Theoretical Physics • Full-Stack Development
+    <text x="600" y="165" font-family="'JetBrains Mono', monospace" font-size="14" fill="#bd93f9" text-anchor="middle" opacity="0.9">
+    Quantum Computing • Theoretical Physics • Research
   </text>
   
   <!-- Quantum equation decorations -->

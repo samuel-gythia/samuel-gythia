@@ -2,14 +2,13 @@
 
 <!-- ═══════════════ PERSONA 5 PHANTOM THIEVES PORTFOLIO ═══════════════ -->
 
-<!-- Persona 5 Cover Image -->
-<img src="./assets/f7a8c755-aff6-4c95-8488-51de270a2df9.jpg" alt="Persona 5 Phantom Thieves Cover" width="100%" style="border-radius: 15px; border: 3px solid #FF0000; box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);" />
+<!-- Quantum Physics Banner -->
+<img src="./assets/quantum-physics-banner.svg" alt="Quantum Physics Research Banner" width="100%" style="border-radius: 15px; border: 3px solid #FF0000; box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);" />
 
-<!-- Name and Title with Persona 5 Styling -->
-<div align="center" style="margin-top: -80px; position: relative; z-index: 10;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&weight=700&size=65&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=800&height=120&lines=SAMUEL+GYTHIA" alt="Samuel Gythia" style="filter: drop-shadow(3px 3px 6px rgba(0,0,0,0.8)) drop-shadow(-1px -1px 0px white) drop-shadow(1px -1px 0px white) drop-shadow(-1px 1px 0px white) drop-shadow(1px 1px 0px white);" />
-  <br/>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Oswald&weight=500&size=22&duration=2000&pause=500&color=FFFFFF&center=true&vCenter=true&width=600&height=50&lines=PHANTOM+THIEF+OF+CODE+%E2%80%A2+QUANTUM+RESEARCHER" alt="Phantom Thief Title" style="filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.9));" />
+<!-- Professional Name Display -->
+<div align="center" style="margin-top: 30px; position: relative; z-index: 10;">
+  <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: #FF0000; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -1px -1px 0px white, 1px -1px 0px white, -1px 1px 0px white, 1px 1px 0px white;">SAMUEL GYTHIA</h1>
+  <p style="font-family: 'Oswald', sans-serif; font-size: 18px; color: #FFFFFF; margin: 10px 0 0 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.9);">PHANTOM THIEF OF CODE • QUANTUM RESEARCHER</p>
 </div>
 
 <!-- Persona 5 Style Profile Picture with Mask Effect -->
@@ -17,23 +16,13 @@
      alt="Samuel Gythia - Phantom Thief Researcher" 
      width="160" 
      height="160" 
-     style="border-radius: 50%; margin-top: 10px; border: 6px solid #FF0000; box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), inset 0 0 15px rgba(0, 0, 0, 0.7); filter: contrast(1.2) saturate(1.1);" />
-
-<!-- Persona 5 Phantom Thief Titles -->
-<div align="center" style="margin-top: 25px;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&weight=700&size=28&duration=2500&pause=800&color=FF0000&center=true&vCenter=true&width=900&height=60&lines=PHANTOM+THIEF+OF+ALGORITHMS;REBEL+QUANTUM+RESEARCHER;CODE+PALACE+INFILTRATOR;METAVERSE+DATA+SCIENTIST" alt="Phantom Thief Specializations" />
-</div>
+     style="border-radius: 50%; margin-top: 20px; border: 6px solid #FF0000; box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), inset 0 0 15px rgba(0, 0, 0, 0.7); filter: contrast(1.2) saturate(1.1);" />
 
 <!-- Persona 5 Status Badges -->
 <p align="center" style="margin-top: 30px;">
   <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PROFILE+VIEWS&color=FF0000&style=for-the-badge&labelColor=000000" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/samuel-gythia?label=PHANTOM+THIEVES&style=for-the-badge&color=FF0000&labelColor=000000" alt="GitHub Followers" />
   <img src="https://img.shields.io/github/stars/samuel-gythia?label=TREASURES&style=for-the-badge&color=FFFFFF&labelColor=FF0000" alt="GitHub Stars" />
-</p>
-
-<!-- Persona 5 Calling Card Declaration -->
-<p align="center" style="margin-top: 35px;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Bebas+Neue&weight=700&size=32&duration=3500&pause=1200&color=FF0000&center=true&vCenter=true&width=1000&height=80&lines=STEALING+HEARTS+THROUGH+CODE;CHANGING+THE+WORLD+WITH+ALGORITHMS;QUANTUM+REBELLION+IN+PROGRESS;TAKE+YOUR+TIME...+PERFECT+CODE+AWAITS" alt="Phantom Thief Manifesto" />
 </p>
 
 </div>
