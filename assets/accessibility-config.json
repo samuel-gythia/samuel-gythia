@@ -1,0 +1,19 @@
+{
+    "accessibility": {
+        "high-contrast": false,
+        "reduced-motion": false,
+        "screen-reader": true,
+        "keyboard-navigation": true
+    },
+    "aria-labels": {
+        "navigation": "Main navigation menu",
+        "content": "Portfolio content",
+        "projects": "Projects showcase",
+        "contact": "Contact information"
+    },
+    "color-contrast": {
+        "minimum-ratio": 4.5,
+        "enhanced-ratio": 7.0,
+        "check-all-combinations": true
+    }
+}

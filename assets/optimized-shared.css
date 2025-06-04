@@ -1,0 +1,149 @@
+/* ═══════════════ OPTIMIZED CSS IMPORTS ═══════════════ */
+/* Single combined import for better performance */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=Oswald:wght@300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* ═══════════════ SHARED VARIABLES ═══════════════ */
+/* Consolidated color palette - remove duplicates from other files */
+:root {
+    /* Persona 5 Core Colors */
+    --phantom-red: #FF0000;
+    --deep-black: #000000;
+    --shadow-gray: #1a1a1a;
+    --crimson-red: #DC143C;
+    --blood-red: #8B0000;
+    --white-mask: #FFFFFF;
+    --silver-chain: #C0C0C0;
+    --gold-treasure: #FFD700;
+    --velvet-blue: #000080;
+    --midnight-black: #0D0D0D;
+
+    /* Accessibility Improved Colors */
+    --accessible-text: #E0E0E0;
+    /* Better contrast than #C0C0C0 */
+    --focus-outline: #FF6B6B;
+    /* Softer red for focus states */
+
+    /* Animation Performance */
+    --animation-duration-fast: 0.3s;
+    --animation-duration-medium: 1s;
+    --animation-duration-slow: 3s;
+
+    /* Responsive Breakpoints */
+    --mobile-max: 768px;
+    --tablet-max: 1024px;
+}
+
+/* ═══════════════ PERFORMANCE OPTIMIZATIONS ═══════════════ */
+/* Force hardware acceleration for animated elements */
+.phantom-header,
+.calling-card,
+.persona-awakening,
+.velvet-room-portal {
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+
+/* Optimize font loading */
+@font-face {
+    font-family: 'Bebas Neue';
+    font-display: swap; /* Improves loading performance */
+    src: local('Bebas Neue'), url('https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXooxW5rygbi49c.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-display: swap;
+    src: local('Oswald'), url('https://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUtiZTaR.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Rajdhani';
+    font-display: swap;
+    src: local('Rajdhani'), url('https://fonts.gstatic.com/s/rajdhani/v11/LDI2apCSOBg7S-QT7pasQdcI.woff2') format('woff2');
+}
+
+/* ═══════════════ CONSOLIDATED ANIMATIONS ═══════════════ */
+/* Remove duplicate keyframes from other files */
+@keyframes phantom-pulse-optimized {
+
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.8);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 20px rgba(255, 0, 0, 0.2);
+    }
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ═══════════════ UTILITY CLASSES ═══════════════ */
+/* Reusable classes to reduce CSS duplication */
+.phantom-text-shadow {
+    text-shadow:
+        0 0 5px var(--phantom-red),
+        0 0 10px var(--phantom-red),
+        1px 1px 2px var(--deep-black);
+}
+
+.phantom-border {
+    border: 2px solid var(--phantom-red);
+    border-radius: 15px;
+}
+
+.phantom-gradient-bg {
+    background: linear-gradient(135deg, var(--deep-black), var(--shadow-gray));
+}
+
+.phantom-transition {
+    transition: all var(--animation-duration-fast) ease;
+}
+
+/* ═══════════════ CRITICAL CSS LOADING ═══════════════ */
+/* Above-the-fold styles for faster initial render */
+.critical-header {
+    font-family: 'Bebas Neue', cursive;
+    color: var(--phantom-red);
+    background: var(--deep-black);
+    padding: 1rem;
+    text-align: center;
+}
+
+.critical-text {
+    font-family: 'Oswald', sans-serif;
+    color: var(--white-mask);
+    line-height: 1.6;
+}
+
+/* ═══════════════ PRINT OPTIMIZATION ═══════════════ */
+@media print {
+
+    /* Remove all animations and effects for printing */
+    * {
+        animation: none !important;
+        transition: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    .phantom-header,
+    .calling-card {
+        background: white !important;
+        color: black !important;
+        border: 2px solid black !important;
+    }
+}

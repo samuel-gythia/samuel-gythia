@@ -13,6 +13,11 @@
     animation: gradient-shift 8s ease-in-out infinite;
     overflow: hidden;
     border-bottom: 5px solid #FF0000;
+    /* Performance optimizations */
+    will-change: background-position;
+    transform: translateZ(0);
+    /* Force hardware acceleration */
+    backface-visibility: hidden;
 }
 
 @keyframes gradient-shift {
@@ -35,7 +40,7 @@
     }
 }
 
-/* Animated Cityscape Silhouette */
+/* Optimized Cityscape */
 .cityscape-container {
     position: absolute;
     bottom: 0;
@@ -45,6 +50,11 @@
     background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><rect width="400" height="200" fill="%23000000"/><rect x="20" y="100" width="30" height="100" fill="%231a1a1a"/><rect x="60" y="80" width="40" height="120" fill="%231a1a1a"/><rect x="110" y="60" width="35" height="140" fill="%231a1a1a"/><rect x="155" y="90" width="25" height="110" fill="%231a1a1a"/><rect x="190" y="70" width="45" height="130" fill="%231a1a1a"/><rect x="245" y="85" width="30" height="115" fill="%231a1a1a"/><rect x="285" y="55" width="35" height="145" fill="%231a1a1a"/><rect x="330" y="75" width="40" height="125" fill="%231a1a1a"/></svg>') repeat-x;
     animation: cityscape-scroll 20s linear infinite;
     opacity: 0.7;
+    /* Performance optimizations */
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    contain: layout;
 }
 
 @keyframes cityscape-scroll {

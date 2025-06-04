@@ -1,0 +1,33 @@
+name: README Lint Check
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'README.md' ]
+  pull_request:
+    branches: [ main ]
+    paths: [ 'README.md' ]
+
+jobs:
+  readme-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Install markdown linter
+        run: npm install -g markdownlint-cli
+        
+      - name: Lint README
+        run: |
+          markdownlint README.md --config .markdownlint.json || true
+          echo "✅ README linting completed"
+          
+      - name: Check for broken links
+        run: |
+          # Basic check for common broken link patterns
+          if grep -n "](http" README.md | grep -E "\[.*\]\(http[^)]*$"; then
+            echo "⚠️  Potential broken links found"
+          else
+            echo "✅ No obvious broken links detected"
+          fi

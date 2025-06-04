@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Persona 5 Phantom Thieves Portfolio</title>
+    <!-- Accessibility and SEO Meta Tags -->
+    <meta name="description" content="Interactive Persona 5 themed portfolio showcase with phantom thief styling">
+    <meta name="theme-color" content="#FF0000">
     <link rel="stylesheet" href="persona5-phantom-thieves.css">
+    <link rel="stylesheet" href="accessibility.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
@@ -207,17 +211,52 @@
                 padding: 20px;
             }
         }
+
+        /* Skip Link Styles */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #FF0000;
+            color: #FFFFFF;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            z-index: 1000;
+        }
+
+        .skip-link:focus {
+            top: 10px;
+        }
+
+        /* ARIA Live Region Styles */
+        .aria-live-region {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            clip: rect(1px, 1px, 1px, 1px);
+        }
     </style>
 </head>
 
 <body>
-    <div class="metaverse-container">
-        <!-- Header -->
-        <div class="phantom-header phantom-entrance">
-            <h1 class="phantom-title">PHANTOM THIEVES OF CODE</h1>
-            <p class="phantom-subtitle">Welcome to the Metaverse</p>
-            <p class="metaverse-text">"I am thou, thou art I... Let's steal some hearts with algorithms!"</p>
-        </div>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- ARIA Live Region for Screen Readers -->
+    <div id="aria-live-region" class="aria-live-region" aria-live="polite" aria-atomic="true"></div>
+
+    <div class="metaverse-container" role="main" id="main-content">
+        <!-- Header with proper semantic markup -->
+        <header class="phantom-header phantom-entrance" role="banner">
+            <h1 class="phantom-title" aria-label="Portfolio title">PHANTOM THIEVES OF CODE</h1>
+            <p class="phantom-subtitle" aria-label="Portfolio subtitle">Welcome to the Metaverse</p>
+            <p class="metaverse-text" aria-describedby="portfolio-description">"I am thou, thou art I... Let's steal
+                some hearts with algorithms!"</p>
+        </header>
 
         <!-- Calling Card Showcase -->
         <div class="calling-card-showcase">
