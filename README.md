@@ -1,144 +1,252 @@
 <div align="center">
 
-<!-- ═══════════════ SAMUEL GYTHIA RESEARCH PORTFOLIO ═══════════════ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=120&section=header&text=PHANTOM%20THIEVES%20OF%20CODE&fontSize=24&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Samuel%20Gythia%20•%20Quantum%20Researcher&descAlignY=55&descSize=14">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=120&section=header&text=PHANTOM%20THIEVES%20OF%20CODE&fontSize=24&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Samuel%20Gythia%20•%20Quantum%20Researcher&descAlignY=55&descSize=14" width="100%" alt="Persona 5 Royal Header">
+</picture>
 
-<!-- Quantum Physics Banner -->
-<img src="./assets/quantum-physics-banner.svg" alt="Quantum Physics Research Banner" width="100%" style="border-radius: 15px; border: 3px solid #FF0000; box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);" />
-
-<!-- Professional Name Display -->
-<div align="center" style="margin-top: 30px; position: relative; z-index: 10;">
-  <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: #FF0000; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -1px -1px 0px white, 1px -1px 0px white, -1px 1px 0px white, 1px 1px 0px white;">SAMUEL GYTHIA</h1>
-  <p style="font-family: 'Oswald', sans-serif; font-size: 18px; color: #FFFFFF; margin: 10px 0 0 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.9);">QUANTUM PHYSICIST • COMPUTATIONAL RESEARCHER</p>
+<!-- Persona 5 Royal Animated GIF Showcase -->
+<div align="center" style="margin: 20px 0; position: relative;">
+  <!-- Replace this placeholder with your gif -->
+  <img src="./assets/persona5-showcase.gif" alt="Persona 5 Royal Showcase" width="100%" style="max-width: 600px; border-radius: 15px; border: 3px solid #FF0000; box-shadow: 0 0 30px rgba(255, 0, 0, 0.6); filter: brightness(1.1) contrast(1.1);" />
 </div>
 
-<!-- Persona 5 Style Profile Picture with Mask Effect -->
-<img src="https://github.com/samuel-gythia.png" 
-     alt="Samuel Gythia - Quantum Researcher" 
-     width="160" 
-     height="160" 
-     style="border-radius: 50%; margin-top: 20px; border: 6px solid #FF0000; box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), inset 0 0 15px rgba(0, 0, 0, 0.7); filter: contrast(1.2) saturate(1.1);" />
+<!-- Stylized Name Display with Persona 5 Aesthetics -->
+<div align="center" style="background: linear-gradient(135deg, #000000 0%, #220000 25%, #FF0000 50%, #220000 75%, #000000 100%); padding: 30px; border-radius: 20px; border: 3px solid #FF0000; margin: 20px auto; box-shadow: 0 0 40px rgba(255, 0, 0, 0.8); position: relative; overflow: hidden;">
+  
+  <!-- Phantom Thief Codename Style -->
+  <div style="position: relative; z-index: 10;">
+    <h1 style="font-family: 'Bebas Neue', 'Arial Black', sans-serif; font-size: clamp(36px, 8vw, 56px); color: #FFFFFF; margin: 0; text-shadow: 3px 3px 0px #FF0000, -2px -2px 0px #000000, 4px 4px 10px rgba(0,0,0,0.8); letter-spacing: 3px; font-weight: 900;">
+      ⚡ SAMUEL GYTHIA ⚡
+    </h1>
+    <div style="width: 80%; height: 3px; background: linear-gradient(90deg, #FF0000 0%, #FFFFFF 50%, #FF0000 100%); margin: 15px auto; border-radius: 2px;"></div>
+    <p style="font-family: 'Oswald', 'Arial', sans-serif; font-size: clamp(14px, 3vw, 20px); color: #FFFFFF; margin: 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.9); font-weight: 600; letter-spacing: 1px;">
+      🔬 QUANTUM PHYSICIST • COMPUTATIONAL RESEARCHER 🔬
+    </p>
+  </div>
+  
+  <!-- Decorative Corner Elements -->
+  <div style="position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; border: 3px solid #FF0000; border-right: none; border-bottom: none; border-radius: 10px 0 0 0;"></div>
+  <div style="position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; border: 3px solid #FF0000; border-left: none; border-bottom: none; border-radius: 0 10px 0 0;"></div>
+  <div style="position: absolute; bottom: 10px; left: 10px; width: 30px; height: 30px; border: 3px solid #FF0000; border-right: none; border-top: none; border-radius: 0 0 0 10px;"></div>
+  <div style="position: absolute; bottom: 10px; right: 10px; width: 30px; height: 30px; border: 3px solid #FF0000; border-left: none; border-top: none; border-radius: 0 0 10px 0;"></div>
+</div>
 
-<!-- Professional Status Badges -->
-<p align="center" style="margin-top: 30px;">
-  <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PROFILE+VIEWS&color=red&style=for-the-badge&labelColor=black" alt="Profile Views" />  <img src="https://img.shields.io/github/followers/samuel-gythia?label=FOLLOWERS&style=for-the-badge&color=red&labelColor=black" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/samuel-gythia?affiliations=OWNER&label=STARS&style=for-the-badge&color=white&labelColor=red" alt="GitHub Stars" />
+<!-- Spotify Now Playing Integration -->
+<div align="center" style="margin: 25px auto; background: linear-gradient(135deg, #1DB954 0%, #191414 50%, #000000 100%); padding: 20px; border-radius: 15px; border: 2px solid #FF0000; max-width: 500px; box-shadow: 0 0 25px rgba(255, 0, 0, 0.5);">
+  <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 15px;">
+    <img src="https://img.shields.io/badge/🎵_Now_Playing-Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=000000" alt="Now Playing" style="border-radius: 8px;">
+    <div style="text-align: center;">
+      <p style="color: #FFFFFF; font-family: 'Arial', sans-serif; font-size: 16px; font-weight: 600; margin: 5px 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">🎼 "Beneath The Mask - Rain, Instrumental Version"</p>
+      <p style="color: #FF0000; font-family: 'Arial', sans-serif; font-size: 14px; margin: 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">🎤 Artist: Lyn</p>
+    </div>
+  </div>
+</div>
+
+<!-- Phantom Thief Profile with Mask Effect -->
+<div style="position: relative; margin: 25px auto; width: 180px; height: 180px;">
+  <img src="https://github.com/samuel-gythia.png" 
+       alt="Samuel Gythia - Quantum Phantom Thief" 
+       width="180" 
+       height="180" 
+       style="border-radius: 50%; border: 6px solid #FF0000; box-shadow: 0 0 30px rgba(255, 0, 0, 0.8), inset 0 0 20px rgba(0, 0, 0, 0.5); filter: contrast(1.3) saturate(1.2) brightness(1.1); position: relative; z-index: 5;" />
+  
+  <!-- Phantom Thief Mask Overlay Effect -->
+  <div style="position: absolute; top: 0; left: 0; width: 180px; height: 180px; border-radius: 50%; background: linear-gradient(45deg, rgba(255,0,0,0.1) 0%, rgba(0,0,0,0.3) 40%, rgba(255,0,0,0.1) 100%); border: 6px solid transparent; z-index: 10; pointer-events: none;"></div>
+</div>
+
+<!-- Professional Status Badges with Persona 5 Style -->
+<p align="center" style="margin-top: 30px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px;">
+  <img src="https://komarev.com/ghpvc/?username=samuel-gythia&label=PHANTOM+VIEWS&color=red&style=for-the-badge&labelColor=black" alt="Profile Views" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
+  <img src="https://img.shields.io/github/followers/samuel-gythia?label=ACCOMPLICES&style=for-the-badge&color=red&labelColor=black" alt="GitHub Followers" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
+  <img src="https://img.shields.io/github/stars/samuel-gythia?affiliations=OWNER&label=TREASURES&style=for-the-badge&color=white&labelColor=red" alt="GitHub Stars" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
 </p>
 
 </div>
 
-<div align="center" style="background: linear-gradient(45deg, #000000, #FF0000, #000000); padding: 25px; border-radius: 20px; border: 2px solid #FF0000;">
+<div align="center" style="background: linear-gradient(135deg, #000000 0%, #220000 25%, #FF0000 50%, #220000 75%, #000000 100%); padding: 30px; border-radius: 20px; border: 3px solid #FF0000; margin: 25px auto; box-shadow: 0 0 40px rgba(255, 0, 0, 0.7); position: relative; overflow: hidden;">
 
-### 🔬 *"Exploring the quantum realm through computational innovation"* 🔬
+<!-- Phantom Thief Quote -->
+<div style="position: relative; z-index: 10;">
+  <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(24px, 5vw, 32px); color: #FFFFFF; margin: 0 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); letter-spacing: 2px;">
+    ⭐ PHANTOM THIEF MANIFESTO ⭐
+  </h2>
+  <div style="width: 60%; height: 2px; background: linear-gradient(90deg, #FF0000 0%, #FFFFFF 50%, #FF0000 100%); margin: 15px auto; border-radius: 2px;"></div>
+  <p style="font-family: 'Georgia', serif; font-size: clamp(16px, 3vw, 20px); color: #FFFFFF; font-style: italic; margin: 20px 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.9); line-height: 1.4;">
+    🌙 <em>"In the depths of quantum realms, we steal the secrets of reality itself..."</em> 🌙
+  </p>
+  
+  <h3 style="font-family: 'Oswald', sans-serif; font-size: clamp(20px, 4vw, 28px); color: #FF0000; margin: 25px 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); letter-spacing: 1px; font-weight: 700;">
+    🎭 RESEARCH HEISTS IN PROGRESS 🎭
+  </h3>
+  <p style="font-family: 'Arial', sans-serif; font-size: clamp(14px, 2.5vw, 18px); color: #FFFFFF; margin: 10px 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); letter-spacing: 0.5px;">
+    ◆ Advanced Quantum Computing & Simulation Research ◆
+  </p>
+</div>
 
----
-
-## 🔥 **RESEARCH PORTFOLIO**
-
-*◇ Advanced Quantum Computing & Simulation Research ◇*
+<!-- Decorative Elements -->
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,0,0,0.05) 10px, rgba(255,0,0,0.05) 20px); pointer-events: none;"></div>
 
 </div>
 
-<!-- Professional Project Showcase with Red/Black Aesthetics -->
-<table align="center" width="100%" style="background: linear-gradient(135deg, #000000, #330000, #000000); border-radius: 25px; padding: 25px; border: 3px solid #FF0000;">
+<!-- Phantom Thieves Treasure Vault - Project Showcase -->
+<div align="center" style="background: linear-gradient(135deg, #000000 0%, #220000 20%, #330000 40%, #FF0000 60%, #330000 80%, #000000 100%); border-radius: 25px; padding: 30px; border: 3px solid #FF0000; margin: 30px auto; box-shadow: 0 0 50px rgba(255, 0, 0, 0.8); position: relative; overflow: hidden;">
+
+<!-- Decorative Corner Masks -->
+<div style="position: absolute; top: 15px; left: 15px; width: 40px; height: 40px; background: radial-gradient(circle, #FF0000 30%, transparent 70%); border-radius: 50%; opacity: 0.6;"></div>
+<div style="position: absolute; top: 15px; right: 15px; width: 40px; height: 40px; background: radial-gradient(circle, #FF0000 30%, transparent 70%); border-radius: 50%; opacity: 0.6;"></div>
+<div style="position: absolute; bottom: 15px; left: 15px; width: 40px; height: 40px; background: radial-gradient(circle, #FF0000 30%, transparent 70%); border-radius: 50%; opacity: 0.6;"></div>
+<div style="position: absolute; bottom: 15px; right: 15px; width: 40px; height: 40px; background: radial-gradient(circle, #FF0000 30%, transparent 70%); border-radius: 50%; opacity: 0.6;"></div>
+
+<table align="center" width="100%" style="position: relative; z-index: 10;">
 <tr>
-<td align="center" width="33%" style="padding: 20px;">
+<td align="center" width="33%" style="padding: 25px; background: rgba(0,0,0,0.3); border-radius: 15px; margin: 10px; border: 2px solid rgba(255,0,0,0.5);">
 
-### 🎯 **QUANTUM ALGORITHMS**
+<h3 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(18px, 4vw, 24px); color: #FF0000; margin: 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); letter-spacing: 1px;">🎯 QUANTUM ALGORITHMS</h3>
+<div style="width: 60%; height: 2px; background: #FF0000; margin: 10px auto; border-radius: 1px;"></div>
 
+<div style="margin: 15px 0;">
 <a href="https://github.com/samuel-gythia/bose-hubbard-mott-transition">
-  <img src="https://img.shields.io/badge/⚛️_Bose--Hubbard-Mott_Transition-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/⚛️_Bose--Hubbard-Mott_Transition-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" style="margin: 5px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.4);" />
 </a>
+</div>
 
+<div style="margin: 15px 0;">
 <a href="https://github.com/samuel-gythia/lattice-qed-schwinger-model">
-  <img src="https://img.shields.io/badge/🔬_Lattice_QED-Schwinger_Model-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🔬_Lattice_QED-Schwinger_Model-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" style="margin: 5px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.4);" />
 </a>
+</div>
 
+<div style="margin: 15px 0;">
 <a href="https://github.com/samuel-gythia/optomechanical-cavity-cooling">
-  <img src="https://img.shields.io/badge/🌡️_Cavity-Cooling_System-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🌡️_Cavity-Cooling_System-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" style="margin: 5px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.4);" />
 </a>
+</div>
 
-*◇ Quantum many-body systems and phase transitions ◇*
+<p style="font-family: 'Arial', sans-serif; font-size: clamp(12px, 2.5vw, 14px); color: #FFFFFF; font-style: italic; margin: 15px 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">
+◆ Quantum many-body systems heists ◆</p>
 
 </td>
-<td align="center" width="33%" style="padding: 20px;">
+<td align="center" width="33%" style="padding: 25px; background: rgba(0,0,0,0.3); border-radius: 15px; margin: 10px; border: 2px solid rgba(255,0,0,0.5);">
 
-### 🌟 **QUANTUM OPTICS**
+<h3 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(18px, 4vw, 24px); color: #FF0000; margin: 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); letter-spacing: 1px;">🌟 QUANTUM OPTICS</h3>
+<div style="width: 60%; height: 2px; background: #FF0000; margin: 10px auto; border-radius: 1px;"></div>
 
+<div style="margin: 15px 0;">
 <a href="https://github.com/samuel-gythia/continuous-variable-squeezing">
-  <img src="https://img.shields.io/badge/💫_CV_Squeezing-Research_Project-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/💫_CV_Squeezing-Research_Project-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" style="margin: 5px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.4);" />
 </a>
+</div>
 
+<div style="margin: 15px 0;">
 <a href="https://github.com/samuel-gythia/fdtd-photonic-waveguide-coupling">
-  <img src="https://img.shields.io/badge/📡_FDTD-Waveguide_Coupling-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/📡_FDTD-Waveguide_Coupling-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" style="margin: 5px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.4);" />
 </a>
+</div>
 
+<div style="margin: 15px 0;">
 <a href="https://github.com/samuel-gythia/microring-photonic-modulator">
-  <img src="https://img.shields.io/badge/🔮_Microring-Photonic_Modulator-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🔮_Microring-Photonic_Modulator-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" style="margin: 5px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.4);" />
 </a>
+</div>
 
-*◇ Photonic systems and optical quantum computing ◇*
+<p style="font-family: 'Arial', sans-serif; font-size: clamp(12px, 2.5vw, 14px); color: #FFFFFF; font-style: italic; margin: 15px 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">
+◆ Photonic systems infiltration ◆</p>
 
 </td>
-<td align="center" width="33%" style="padding: 20px;">
+<td align="center" width="33%" style="padding: 25px; background: rgba(0,0,0,0.3); border-radius: 15px; margin: 10px; border: 2px solid rgba(255,0,0,0.5);">
 
-### 🎭 **MACHINE LEARNING**
+<h3 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(18px, 4vw, 24px); color: #FF0000; margin: 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); letter-spacing: 1px;">🎭 MACHINE LEARNING</h3>
+<div style="width: 60%; height: 2px; background: #FF0000; margin: 10px auto; border-radius: 1px;"></div>
 
+<div style="margin: 15px 0;">
 <a href="https://github.com/samuel-gythia/quantum-clifford-verification">
-  <img src="https://img.shields.io/badge/🔐_Clifford-Verification_Protocol-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🔐_Clifford-Verification_Protocol-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" style="margin: 5px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.4);" />
 </a>
+</div>
 
+<div style="margin: 15px 0;">
 <a href="https://github.com/samuel-gythia/quantum-ml-verification-confidence">
-  <img src="https://img.shields.io/badge/🧠_ML-Verification_Confidence-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/🧠_ML-Verification_Confidence-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" style="margin: 5px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.4);" />
 </a>
+</div>
 
+<div style="margin: 15px 0;">
 <a href="https://github.com/samuel-gythia/nv-diamond-magnetometry">
-  <img src="https://img.shields.io/badge/💎_NV_Centers-Diamond_Magnetometry-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" />
+  <img src="https://img.shields.io/badge/💎_NV_Centers-Diamond_Magnetometry-FF0000?style=for-the-badge&logoColor=FFFFFF&labelColor=000000" style="margin: 5px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.4);" />
 </a>
+</div>
 
-*◇ Machine learning and quantum algorithm verification ◇*
+<p style="font-family: 'Arial', sans-serif; font-size: clamp(12px, 2.5vw, 14px); color: #FFFFFF; font-style: italic; margin: 15px 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">
+◆ Cognitive security protocols ◆</p>
 
 </td>
 </tr>
 </table>
-
----
-
-<div align="center">
-
-## 🎯 **CURRENT RESEARCH FOCUS**
 
 </div>
 
-<table align="center" width="90%" style="background: linear-gradient(135deg, #000000, #FF0000, #000000); border-radius: 25px; padding: 25px; border: 3px solid #FF0000;">
-<tr>
-<td align="center" width="50%" style="padding: 25px;">
+---
 
-### 🎯 **ACADEMIC TRAJECTORY**
-```yaml
-Status: "Master's → PhD Application Phase"
-Focus: "Quantum Computing & Simulation Research"
-Target: "Germany PhD Programs (2026-2030)"
-Languages: "German (A1-A2 → B2) | English (Native)"
-Specialization: "Quantum Physics & Computation"
-Objective: "Advancing quantum algorithm development"
-```
+<div align="center" style="margin: 40px auto;">
+
+<h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(28px, 6vw, 40px); color: #FF0000; margin: 20px 0; text-shadow: 3px 3px 6px rgba(0,0,0,0.8); letter-spacing: 2px;">
+� PHANTOM THIEF OPERATIONS HQ 🎭
+</h2>
+
+</div>
+
+<div align="center" style="background: linear-gradient(135deg, #000000 0%, #330000 25%, #FF0000 50%, #330000 75%, #000000 100%); border-radius: 25px; padding: 35px; border: 3px solid #FF0000; margin: 30px auto; box-shadow: 0 0 60px rgba(255, 0, 0, 0.8); position: relative; overflow: hidden; max-width: 95%;">
+
+<!-- Animated Background Pattern -->
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('data:image/svg+xml;charset=utf-8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><defs><pattern id=\"stars\" patternUnits=\"userSpaceOnUse\" width=\"20\" height=\"20\"><circle cx=\"10\" cy=\"10\" r=\"1\" fill=\"%23FF0000\" opacity=\"0.1\"/></pattern></defs><rect width=\"100\" height=\"100\" fill=\"url(%23stars)\"/></svg>') repeat; pointer-events: none; opacity: 0.3;"></div>
+
+<table align="center" width="100%" style="position: relative; z-index: 10;">
+<tr>
+<td align="center" width="50%" style="padding: 30px; background: rgba(0,0,0,0.4); border-radius: 15px; margin: 15px; border: 2px solid rgba(255,0,0,0.6); backdrop-filter: blur(5px);">
+
+<h3 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(20px, 4vw, 28px); color: #FF0000; margin: 20px 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); letter-spacing: 1px;">🎯 PHANTOM THIEF DOSSIER</h3>
+<div style="width: 70%; height: 3px; background: linear-gradient(90deg, #FF0000 0%, #FFFFFF 50%, #FF0000 100%); margin: 15px auto; border-radius: 2px;"></div>
+
+<div style="background: rgba(0,0,0,0.6); padding: 20px; border-radius: 10px; border: 1px solid #FF0000; margin: 15px 0;">
+<pre style="font-family: 'Courier New', monospace; font-size: clamp(11px, 2.5vw, 14px); color: #FFFFFF; margin: 0; text-align: left; text-shadow: 1px 1px 2px rgba(0,0,0,0.9); line-height: 1.4;">
+<span style="color: #FF0000; font-weight: bold;">STATUS:</span>        "Master's → PhD Infiltration"
+<span style="color: #FF0000; font-weight: bold;">MISSION:</span>       "Quantum Computing Research"
+<span style="color: #FF0000; font-weight: bold;">TARGET:</span>        "Germany PhD Programs (2026)"
+<span style="color: #FF0000; font-weight: bold;">LANGUAGES:</span>     "German (A1→B2) | English"
+<span style="color: #FF0000; font-weight: bold;">SPECIALTY:</span>     "Quantum Physics Heists"
+<span style="color: #FF0000; font-weight: bold;">OBJECTIVE:</span>     "Algorithm Development"
+</pre>
+</div>
 
 </td>
-<td align="center" width="50%" style="padding: 25px;">
+<td align="center" width="50%" style="padding: 30px; background: rgba(0,0,0,0.4); border-radius: 15px; margin: 15px; border: 2px solid rgba(255,0,0,0.6); backdrop-filter: blur(5px);">
 
-### ⚗️ **RESEARCH TOOLKIT**
-```yaml
-Current_Research: "Quantum Algorithm Development"
-Primary_Tools: "Python | QuTiP | Qiskit | Cirq"
-Focus_Area: "Computational Physics & Simulation"
-Status: "Active Development Phase"
-Architecture: "Modular Scientific Libraries"
-Approach: "Open-Source Research Methods"
-```
+<h3 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(20px, 4vw, 28px); color: #FF0000; margin: 20px 0 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); letter-spacing: 1px;">⚗️ METAVERSE TOOLKIT</h3>
+<div style="width: 70%; height: 3px; background: linear-gradient(90deg, #FF0000 0%, #FFFFFF 50%, #FF0000 100%); margin: 15px auto; border-radius: 2px;"></div>
+
+<div style="background: rgba(0,0,0,0.6); padding: 20px; border-radius: 10px; border: 1px solid #FF0000; margin: 15px 0;">
+<pre style="font-family: 'Courier New', monospace; font-size: clamp(11px, 2.5vw, 14px); color: #FFFFFF; margin: 0; text-align: left; text-shadow: 1px 1px 2px rgba(0,0,0,0.9); line-height: 1.4;">
+<span style="color: #FF0000; font-weight: bold;">RESEARCH:</span>      "Quantum Algorithm Dev"
+<span style="color: #FF0000; font-weight: bold;">TOOLS:</span>         "Python | QuTiP | Qiskit"
+<span style="color: #FF0000; font-weight: bold;">DOMAIN:</span>        "Computational Physics"
+<span style="color: #FF0000; font-weight: bold;">STATUS:</span>        "Active Operation"
+<span style="color: #FF0000; font-weight: bold;">ARCH:</span>          "Modular Libraries"
+<span style="color: #FF0000; font-weight: bold;">METHOD:</span>        "Open-Source Research"
+</pre>
+</div>
 
 </td>
 </tr>
 </table>
+
+<!-- Corner Mask Decorations -->
+<div style="position: absolute; top: 10px; left: 10px; width: 50px; height: 50px; background: radial-gradient(circle, rgba(255,0,0,0.6) 0%, transparent 70%); border-radius: 50%;"></div>
+<div style="position: absolute; top: 10px; right: 10px; width: 50px; height: 50px; background: radial-gradient(circle, rgba(255,0,0,0.6) 0%, transparent 70%); border-radius: 50%;"></div>
+<div style="position: absolute; bottom: 10px; left: 10px; width: 50px; height: 50px; background: radial-gradient(circle, rgba(255,0,0,0.6) 0%, transparent 70%); border-radius: 50%;"></div>
+<div style="position: absolute; bottom: 10px; right: 10px; width: 50px; height: 50px; background: radial-gradient(circle, rgba(255,0,0,0.6) 0%, transparent 70%); border-radius: 50%;"></div>
+
+</div>
 
 ---
 
@@ -298,16 +406,44 @@ Approach: "Open-Source Research Methods"
 
 ---
 
-<div align="center">
+<div align="center" style="background: linear-gradient(135deg, #000000 0%, #220000 30%, #FF0000 50%, #220000 70%, #000000 100%); padding: 40px; border-radius: 20px; border: 3px solid #FF0000; margin: 40px auto; box-shadow: 0 0 50px rgba(255, 0, 0, 0.7); position: relative; overflow: hidden;">
 
-## 🔬 **RESEARCH PHILOSOPHY**
+<!-- Phantom Thief Philosophy -->
+<div style="position: relative; z-index: 10;">
+  <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(24px, 5vw, 32px); color: #FF0000; margin: 20px 0; text-shadow: 3px 3px 6px rgba(0,0,0,0.8); letter-spacing: 2px;">
+    🌟 PHANTOM THIEF CREED 🌟
+  </h2>
+  
+  <div style="width: 50%; height: 3px; background: linear-gradient(90deg, #FF0000 0%, #FFFFFF 50%, #FF0000 100%); margin: 20px auto; border-radius: 2px;"></div>
+  
+  <div style="background: rgba(0,0,0,0.5); padding: 30px; border-radius: 15px; border: 2px solid rgba(255,0,0,0.7); margin: 25px auto; max-width: 90%; backdrop-filter: blur(5px);">
+    <p style="font-family: 'Georgia', serif; font-size: clamp(16px, 3.5vw, 22px); color: #FFFFFF; font-style: italic; margin: 15px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.9); line-height: 1.6; text-align: center;">
+      <em>🌙 "In the shadows of quantum uncertainty, we find the light of discovery...</em><br/>
+      <em>From theoretical foundations to computational manifestations,</em><br/>
+      <em>we steal the secrets of reality itself, one algorithm at a time."</em> 🌙
+    </p>
+    
+    <div style="margin: 25px 0; text-align: center;">
+      <span style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(16px, 3vw, 20px); color: #FF0000; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); letter-spacing: 1px;">
+        ⚡ SAMUEL GYTHIA • PHANTOM THIEF OF QUANTUM REALMS ⚡
+      </span>
+    </div>
+  </div>
+</div>
 
-*"Exploring the quantum realm through computational innovation...*  
-*From theoretical foundations to practical implementations.*  
-*Advancing our understanding of quantum systems through rigorous research."*
-
-**- Samuel Gythia, Quantum Researcher**
+<!-- Decorative Border Elements -->
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 2px solid rgba(255,0,0,0.3); border-radius: 20px; background: repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(255,0,0,0.03) 15px, rgba(255,0,0,0.03) 30px); pointer-events: none;"></div>
 
 </div>
 
-<!-- Stats updated: 2025-06-04 Auto-refresh enabled -->
+<!-- Metaverse Footer -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=100&section=footer&text=THANK%20YOU%20FOR%20VISITING&fontSize=20&fontColor=FFFFFF&animation=fadeIn&fontAlignY=65">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=100&section=footer&text=THANK%20YOU%20FOR%20VISITING&fontSize=20&fontColor=FFFFFF&animation=fadeIn&fontAlignY=65" width="100%" alt="Persona 5 Royal Footer">
+</picture>
+
+<div align="center" style="margin: 20px auto; padding: 15px; background: rgba(0,0,0,0.8); border-radius: 10px; border: 1px solid #FF0000;">
+  <p style="font-family: 'Courier New', monospace; font-size: 12px; color: #FF0000; margin: 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.9);">
+    <!-- Phantom Stats Last Updated: 2025 --> 🎭 OPERATION STATUS: ACTIVE 🎭 <!-- Metaverse Auto-Refresh: ENABLED -->
+  </p>
+</div>
