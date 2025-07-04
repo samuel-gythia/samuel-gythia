@@ -1,0 +1,520 @@
+/* ═══════════════ PERSONA 5 ROYAL - PERFORMANCE OPTIMIZED ═══════════════ */
+
+/* CRITICAL CSS FIRST - Above the fold content */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=Oswald:wght@300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap&subset=latin');
+
+/* ═══════════════ CSS CUSTOM PROPERTIES ═══════════════ */
+:root {
+    /* Persona 5 Royal Color Palette */
+    --phantom-red: #FF0000;
+    --deep-black: #000000;
+    --shadow-gray: #1a1a1a;
+    --crimson-red: #DC143C;
+    --blood-red: #8B0000;
+    --white-mask: #FFFFFF;
+    --silver-chain: #C0C0C0;
+    --gold-treasure: #FFD700;
+    --velvet-blue: #000080;
+    --midnight-black: #0D0D0D;
+    --accessible-text: #E0E0E0;
+    --focus-outline: #FF6B6B;
+    
+    /* Enhanced Royal Colors */
+    --royal-purple: #4A0E4E;
+    --metallic-gold: #B8860B;
+    --mask-silver: #A8A8A8;
+    --neon-red: #FF1744;
+    
+    /* Animation Performance Timing */
+    --timing-fast: 0.2s;
+    --timing-medium: 0.6s;
+    --timing-slow: 1.2s;
+    --timing-epic: 2.4s;
+    
+    /* Easing Functions for Smoother Animations */
+    --ease-phantom: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --ease-mask: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --ease-royal: cubic-bezier(0.19, 1, 0.22, 1);
+    
+    /* Performance Optimizations */
+    --gpu-hack: translateZ(0);
+}
+
+/* ═══════════════ PERFORMANCE BASE STYLES ═══════════════ */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', 'Rajdhani', sans-serif;
+    background: linear-gradient(135deg, var(--deep-black) 0%, var(--shadow-gray) 50%, var(--deep-black) 100%);
+    color: var(--white-mask);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    line-height: 1.6;
+    /* Performance optimizations */
+    will-change: scroll-position;
+    transform: var(--gpu-hack);
+    contain: layout style;
+}
+
+/* ═══════════════ OPTIMIZED PHANTOM ANIMATIONS ═══════════════ */
+@keyframes phantom-pulse-royal {
+    0%, 100% {
+        transform: scale(1) var(--gpu-hack);
+        box-shadow: 
+            0 0 0 0 rgba(255, 0, 0, 0.8),
+            0 0 20px rgba(255, 0, 0, 0.3);
+    }
+    25% {
+        transform: scale(1.03) var(--gpu-hack);
+        box-shadow: 
+            0 0 0 8px rgba(255, 0, 0, 0.4),
+            0 0 30px rgba(255, 0, 0, 0.5);
+    }
+    50% {
+        transform: scale(1.06) var(--gpu-hack);
+        box-shadow: 
+            0 0 0 16px rgba(255, 0, 0, 0.2),
+            0 0 40px rgba(255, 0, 0, 0.7);
+    }
+    75% {
+        transform: scale(1.03) var(--gpu-hack);
+        box-shadow: 
+            0 0 0 12px rgba(255, 0, 0, 0.3),
+            0 0 35px rgba(255, 0, 0, 0.6);
+    }
+}
+
+@keyframes mask-shimmer {
+    0%, 100% {
+        filter: brightness(1) contrast(1) hue-rotate(0deg);
+        text-shadow: 
+            0 0 5px var(--phantom-red),
+            0 0 10px var(--phantom-red);
+    }
+    33% {
+        filter: brightness(1.2) contrast(1.1) hue-rotate(5deg);
+        text-shadow: 
+            0 0 8px var(--neon-red),
+            0 0 15px var(--phantom-red),
+            0 0 25px var(--crimson-red);
+    }
+    66% {
+        filter: brightness(1.4) contrast(1.2) hue-rotate(-5deg);
+        text-shadow: 
+            0 0 12px var(--neon-red),
+            0 0 20px var(--phantom-red),
+            0 0 35px var(--blood-red);
+    }
+}
+
+@keyframes calling-card-royal {
+    0% {
+        transform: perspective(1000px) rotateY(0deg) rotateX(0deg) var(--gpu-hack);
+        filter: brightness(1);
+    }
+    25% {
+        transform: perspective(1000px) rotateY(15deg) rotateX(5deg) var(--gpu-hack);
+        filter: brightness(1.1);
+    }
+    50% {
+        transform: perspective(1000px) rotateY(0deg) rotateX(10deg) var(--gpu-hack);
+        filter: brightness(1.2);
+    }
+    75% {
+        transform: perspective(1000px) rotateY(-15deg) rotateX(5deg) var(--gpu-hack);
+        filter: brightness(1.1);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(0deg) rotateX(0deg) var(--gpu-hack);
+        filter: brightness(1);
+    }
+}
+
+@keyframes phantom-entrance-royal {
+    0% {
+        opacity: 0;
+        transform: translateY(60px) scale(0.8) var(--gpu-hack);
+        filter: blur(8px);
+    }
+    30% {
+        opacity: 0.3;
+        transform: translateY(20px) scale(0.9) var(--gpu-hack);
+        filter: blur(4px);
+    }
+    60% {
+        opacity: 0.7;
+        transform: translateY(-10px) scale(1.05) var(--gpu-hack);
+        filter: blur(1px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1) var(--gpu-hack);
+        filter: blur(0);
+    }
+}
+
+@keyframes metaverse-glitch-royal {
+    0%, 100% {
+        transform: translateX(0) var(--gpu-hack);
+        filter: hue-rotate(0deg) saturate(1);
+        text-shadow: 0 0 5px var(--phantom-red);
+    }
+    10% {
+        transform: translateX(-3px) var(--gpu-hack);
+        filter: hue-rotate(15deg) saturate(1.2);
+        text-shadow: -2px 0 var(--neon-red), 2px 0 var(--velvet-blue);
+    }
+    20% {
+        transform: translateX(3px) var(--gpu-hack);
+        filter: hue-rotate(-15deg) saturate(0.8);
+        text-shadow: 2px 0 var(--crimson-red), -2px 0 var(--gold-treasure);
+    }
+    30% {
+        transform: translateX(-1px) var(--gpu-hack);
+        filter: hue-rotate(10deg) saturate(1.1);
+        text-shadow: 0 2px var(--phantom-red), 0 -2px var(--white-mask);
+    }
+    50% {
+        transform: translateX(0) var(--gpu-hack);
+        filter: hue-rotate(0deg) saturate(1);
+        text-shadow: 0 0 8px var(--phantom-red);
+    }
+}
+
+@keyframes particle-flow {
+    0% {
+        transform: translateY(100vh) translateX(0) rotate(0deg) var(--gpu-hack);
+        opacity: 0;
+        scale: 0.5;
+    }
+    10% {
+        opacity: 1;
+        scale: 1;
+    }
+    50% {
+        transform: translateY(50vh) translateX(20px) rotate(180deg) var(--gpu-hack);
+        opacity: 0.8;
+        scale: 1.2;
+    }
+    90% {
+        opacity: 0.6;
+        scale: 0.8;
+    }
+    100% {
+        transform: translateY(-20px) translateX(-10px) rotate(360deg) var(--gpu-hack);
+        opacity: 0;
+        scale: 0.3;
+    }
+}
+
+/* ═══════════════ OPTIMIZED PHANTOM COMPONENTS ═══════════════ */
+.phantom-header {
+    background: linear-gradient(135deg, var(--deep-black) 0%, var(--phantom-red) 25%, var(--deep-black) 50%, var(--phantom-red) 75%, var(--deep-black) 100%);
+    background-size: 300% 300%;
+    border: 3px solid var(--phantom-red);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 20px 0;
+    animation: phantom-pulse-royal var(--timing-epic) var(--ease-phantom) infinite;
+    /* Performance optimizations */
+    will-change: transform, box-shadow, background-position;
+    transform: var(--gpu-hack);
+    backface-visibility: hidden;
+    contain: layout paint;
+}
+
+.calling-card {
+    background: linear-gradient(45deg, var(--deep-black), var(--crimson-red), var(--royal-purple));
+    border: 3px solid var(--phantom-red);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px;
+    animation: calling-card-royal var(--timing-epic) var(--ease-royal) infinite;
+    box-shadow: 
+        0 10px 30px rgba(255, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    /* Performance optimizations */
+    will-change: transform, filter;
+    transform: var(--gpu-hack);
+    backface-visibility: hidden;
+    contain: layout paint;
+}
+
+.phantom-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--phantom-red);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    animation: mask-shimmer var(--timing-slow) var(--ease-mask) infinite;
+    margin: 0;
+    /* Performance optimizations */
+    will-change: filter, text-shadow;
+    transform: var(--gpu-hack);
+    contain: layout;
+}
+
+.phantom-subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--white-mask);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    text-shadow: 
+        1px 1px 2px var(--deep-black),
+        0 0 5px rgba(255, 0, 0, 0.3);
+}
+
+.metaverse-text {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--accessible-text);
+    animation: metaverse-glitch-royal 8s var(--ease-phantom) infinite;
+    /* Performance optimizations */
+    will-change: transform, filter, text-shadow;
+    transform: var(--gpu-hack);
+}
+
+/* ═══════════════ ENHANCED PHANTOM BADGE SYSTEM ═══════════════ */
+.phantom-badge {
+    background: linear-gradient(45deg, var(--phantom-red), var(--blood-red), var(--crimson-red));
+    color: var(--white-mask);
+    border: 2px solid var(--metallic-gold);
+    border-radius: 20px;
+    padding: 10px 18px;
+    margin: 6px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 
+        0 6px 18px rgba(255, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    transition: all var(--timing-fast) var(--ease-royal);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    /* Performance optimizations */
+    will-change: transform, box-shadow;
+    transform: var(--gpu-hack);
+    contain: layout paint;
+}
+
+.phantom-badge::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left var(--timing-medium) var(--ease-phantom);
+}
+
+.phantom-badge:hover {
+    transform: scale(1.08) var(--gpu-hack);
+    box-shadow: 
+        0 12px 30px rgba(255, 0, 0, 0.6),
+        0 0 20px rgba(255, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    animation: phantom-pulse-royal var(--timing-medium) var(--ease-mask) infinite;
+}
+
+.phantom-badge:hover::before {
+    left: 100%;
+}
+
+/* ═══════════════ ROYAL PARTICLE SYSTEM ═══════════════ */
+.red-particles-royal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.particle-royal {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: radial-gradient(circle, var(--neon-red), var(--phantom-red));
+    border-radius: 50%;
+    animation: particle-flow 10s linear infinite;
+    /* Performance optimizations */
+    will-change: transform, opacity, scale;
+    transform: var(--gpu-hack);
+    contain: layout paint;
+}
+
+.particle-royal:nth-child(1) { left: 5%; animation-delay: 0s; }
+.particle-royal:nth-child(2) { left: 20%; animation-delay: 2s; }
+.particle-royal:nth-child(3) { left: 35%; animation-delay: 4s; }
+.particle-royal:nth-child(4) { left: 50%; animation-delay: 1s; }
+.particle-royal:nth-child(5) { left: 65%; animation-delay: 3s; }
+.particle-royal:nth-child(6) { left: 80%; animation-delay: 5s; }
+.particle-royal:nth-child(7) { left: 95%; animation-delay: 1.5s; }
+
+/* ═══════════════ ENHANCED NAVIGATION ═══════════════ */
+.phantom-nav {
+    background: linear-gradient(90deg, var(--deep-black), var(--phantom-red), var(--royal-purple), var(--phantom-red), var(--deep-black));
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px 0;
+    border: 3px solid var(--phantom-red);
+    box-shadow: 
+        0 8px 24px rgba(255, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    /* Performance optimizations */
+    will-change: transform;
+    transform: var(--gpu-hack);
+    contain: layout paint;
+}
+
+.phantom-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.phantom-nav a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    color: var(--white-mask);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 22px;
+    border-radius: 12px;
+    transition: all var(--timing-fast) var(--ease-royal);
+    position: relative;
+    overflow: hidden;
+    /* Performance optimizations */
+    will-change: transform, color, text-shadow;
+    transform: var(--gpu-hack);
+}
+
+.phantom-nav a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--phantom-red), var(--neon-red), var(--phantom-red), transparent);
+    transition: left var(--timing-medium) var(--ease-phantom);
+    z-index: -1;
+}
+
+.phantom-nav a:hover::before {
+    left: 100%;
+}
+
+.phantom-nav a:hover {
+    color: var(--white-mask);
+    transform: scale(1.12) var(--gpu-hack);
+    text-shadow: 
+        0 0 8px var(--neon-red),
+        0 0 16px var(--phantom-red),
+        0 0 24px var(--crimson-red);
+}
+
+/* ═══════════════ RESPONSIVE OPTIMIZATIONS ═══════════════ */
+@media (max-width: 768px) {
+    .phantom-title {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+    
+    .phantom-subtitle {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+    
+    .phantom-nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .phantom-nav a {
+        font-size: 1.1rem;
+        padding: 10px 18px;
+    }
+    
+    .phantom-badge {
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+}
+
+/* ═══════════════ ACCESSIBILITY ENHANCEMENTS ═══════════════ */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: var(--timing-fast) !important;
+    }
+}
+
+@media (prefers-contrast: high) {
+    :root {
+        --phantom-red: #FF0000;
+        --deep-black: #000000;
+        --white-mask: #FFFFFF;
+    }
+    
+    .phantom-header, .calling-card {
+        border-width: 4px;
+    }
+}
+
+/* Focus indicators */
+*:focus {
+    outline: 3px solid var(--focus-outline);
+    outline-offset: 2px;
+}
+
+/* ═══════════════ PERFORMANCE CRITICAL CSS ═══════════════ */
+.performance-critical {
+    contain: layout style paint;
+    will-change: transform;
+    transform: var(--gpu-hack);
+    backface-visibility: hidden;
+}
+
+/* Preload critical animations */
+.phantom-header,
+.calling-card,
+.phantom-badge {
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+
+/* ═══════════════ PRINT OPTIMIZATION ═══════════════ */
+@media print {
+    * {
+        animation: none !important;
+        transition: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        background: white !important;
+        color: black !important;
+    }
+    
+    .phantom-nav, .red-particles-royal {
+        display: none;
+    }
+}
