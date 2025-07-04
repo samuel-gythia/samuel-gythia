@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona 5 Royal - Portfolio Showcase (Performance Optimized)</title>
+    
+    <!-- Critical Performance Meta Tags -->
+    <meta name="description" content="High-performance Persona 5 Royal themed portfolio with optimized animations and enhanced user experience">
+    <meta name="theme-color" content="#FF0000">
+    <meta name="color-scheme" content="dark">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=Oswald:wght@300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap&subset=latin" as="style">
+    <link rel="preload" href="persona5-performance-optimized.css" as="style">
+    <link rel="preload" href="persona5-royal-enhanced.js" as="script">
+    
+    <!-- CSS Loading Strategy -->
+    <link rel="stylesheet" href="persona5-performance-optimized.css">
+    <link rel="stylesheet" href="accessibility.css">
+    
+    <!-- Critical CSS Inline for Above-the-Fold -->
+    <style>
+        /* Critical CSS for immediate render */
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000000;
+            color: #FFFFFF;
+            font-family: 'Oswald', sans-serif;
+            overflow-x: hidden;
+        }
+        
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, #000000 0%, #FF0000 50%, #000000 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            animation: loading-fade-out 2s ease-out 1s both;
+        }
+        
+        .loading-mask {
+            font-size: 4rem;
+            animation: loading-spin 2s linear infinite;
+        }
+        
+        @keyframes loading-fade-out {
+            0% { opacity: 1; }
+            100% { opacity: 0; pointer-events: none; }
+        }
+        
+        @keyframes loading-spin {
+            0% { transform: rotate(0deg) scale(1); }
+            50% { transform: rotate(180deg) scale(1.2); }
+            100% { transform: rotate(360deg) scale(1); }
+        }
+        
+        .metaverse-container {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #000000 0%, #1a0000 50%, #000000 100%);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" aria-label="Loading Persona 5 Royal Portfolio">
+        <div class="loading-mask">🎭</div>
+    </div>
+    
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+    
+    <!-- ARIA Live Region for Screen Readers -->
+    <div id="aria-live-region" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+    
+    <div class="metaverse-container" role="main" id="main-content">
+        <!-- Enhanced Header with Royal Treatment -->
+        <header class="phantom-header performance-critical" role="banner">
+            <h1 class="phantom-title" aria-label="Main portfolio title">
+                PHANTOM THIEVES OF CODE
+            </h1>
+            <p class="phantom-subtitle" aria-label="Portfolio subtitle">
+                Welcome to the Metaverse - Royal Edition
+            </p>
+            <p class="metaverse-text" aria-describedby="portfolio-description">
+                "I am thou, thou art I... Let's steal some hearts with elegant algorithms!"
+            </p>
+        </header>
+        
+        <!-- Enhanced Navigation -->
+        <nav class="phantom-nav performance-critical" role="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="#calling-card">Calling Card</a></li>
+                <li><a href="#confidants">Confidants</a></li>
+                <li><a href="#treasures">Treasures</a></li>
+                <li><a href="#palaces">Palaces</a></li>
+                <li><a href="#velvet-room">Velvet Room</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Enhanced Calling Card Showcase -->
+        <section id="calling-card" class="calling-card performance-critical" aria-labelledby="calling-card-title">
+            <h2 id="calling-card-title" class="phantom-title" style="font-size: 2.5rem;">
+                CALLING CARD - ROYAL EDITION
+            </h2>
+            
+            <div class="persona-awakening" aria-label="Persona awakening animation">
+                <div class="mask-glow"></div>
+            </div>
+            
+            <div class="calling-card-content">
+                <h3 class="phantom-subtitle">Samuel Gythia</h3>
+                <p class="metaverse-text">
+                    Your conventional coding expectations have been marked for transformation.<br>
+                    We will infiltrate your paradigms and replace them with revolutionary algorithms.<br>
+                    <strong>Signed, The Phantom Thieves of Code - Royal Division</strong>
+                </p>
+                
+                <button class="all-out-attack-btn performance-critical" 
+                        aria-label="Trigger All-Out Attack special effect">
+                    ALL-OUT ATTACK! ⚡
+                </button>
+                
+                <div class="royal-stats">
+                    <div class="stat-item">
+                        <div class="stat-value">∞</div>
+                        <div class="stat-label">Code Mastery</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">ROYAL</div>
+                        <div class="stat-label">Phantom Rank</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Heart Steal Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">ELITE</div>
+                        <div class="stat-label">Thief Status</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Enhanced Confidant System -->
+        <section id="confidants" class="confidant-system" aria-labelledby="confidants-title">
+            <h2 id="confidants-title" class="phantom-title sr-only">Confidant Arcanas</h2>
+            
+            <div class="confidant-card performance-critical" tabindex="0">
+                <h3 class="phantom-title" style="font-size: 1.8rem;">🃏 THE FOOL</h3>
+                <div class="confidant-rank">RANK MAX</div>
+                <p class="metaverse-text">Master of All Programming Paradigms</p>
+                <div class="badge-container">
+                    <div class="phantom-badge">JavaScript Mastery</div>
+                    <div class="phantom-badge">Python Expertise</div>
+                    <div class="phantom-badge">C++ Virtuosity</div>
+                    <div class="phantom-badge">TypeScript Fluency</div>
+                </div>
+            </div>
+            
+            <div class="confidant-card performance-critical" tabindex="0">
+                <h3 class="phantom-title" style="font-size: 1.8rem;">⚡ THE MAGICIAN</h3>
+                <div class="confidant-rank">RANK MAX</div>
+                <p class="metaverse-text">Quantum Algorithm Architect</p>
+                <div class="badge-container">
+                    <div class="phantom-badge">Quantum Computing</div>
+                    <div class="phantom-badge">Machine Learning</div>
+                    <div class="phantom-badge">AI Development</div>
+                    <div class="phantom-badge">Neural Networks</div>
+                </div>
+            </div>
+            
+            <div class="confidant-card performance-critical" tabindex="0">
+                <h3 class="phantom-title" style="font-size: 1.8rem;">🌟 THE STAR</h3>
+                <div class="confidant-rank">RANK MAX</div>
+                <p class="metaverse-text">Open Source Champion</p>
+                <div class="badge-container">
+                    <div class="phantom-badge">GitHub Maestro</div>
+                    <div class="phantom-badge">Community Leader</div>
+                    <div class="phantom-badge">Code Mentor</div>
+                    <div class="phantom-badge">Innovation Driver</div>
+                </div>
+            </div>
+            
+            <div class="confidant-card performance-critical" tabindex="0">
+                <h3 class="phantom-title" style="font-size: 1.8rem;">🎭 THE EMPEROR</h3>
+                <div class="confidant-rank">RANK MAX</div>
+                <p class="metaverse-text">Royal Performance Optimizer</p>
+                <div class="badge-container">
+                    <div class="phantom-badge">Performance Tuning</div>
+                    <div class="phantom-badge">System Architecture</div>
+                    <div class="phantom-badge">Cloud Computing</div>
+                    <div class="phantom-badge">DevOps Excellence</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Enhanced Treasure Collection -->
+        <section id="treasures" class="treasure-list performance-critical" aria-labelledby="treasures-title">
+            <h2 id="treasures-title" class="phantom-title" style="font-size: 2rem;">💎 ROYAL TREASURE VAULT</h2>
+            
+            <div class="treasure-grid">
+                <div class="treasure-item" tabindex="0">
+                    <span class="treasure-icon">🏆</span>
+                    <div class="treasure-content">
+                        <h3>Perfect Algorithm Implementations</h3>
+                        <p class="metaverse-text">Elegant solutions that blend performance with readability</p>
+                    </div>
+                </div>
+                
+                <div class="treasure-item" tabindex="0">
+                    <span class="treasure-icon">💫</span>
+                    <div class="treasure-content">
+                        <h3>Revolutionary Code Architecture</h3>
+                        <p class="metaverse-text">Scalable systems designed for the future</p>
+                    </div>
+                </div>
+                
+                <div class="treasure-item" tabindex="0">
+                    <span class="treasure-icon">⚡</span>
+                    <div class="treasure-content">
+                        <h3>Lightning-Fast Performance</h3>
+                        <p class="metaverse-text">Optimizations that push the boundaries of speed</p>
+                    </div>
+                </div>
+                
+                <div class="treasure-item" tabindex="0">
+                    <span class="treasure-icon">🎨</span>
+                    <div class="treasure-content">
+                        <h3>Aesthetic UI/UX Mastery</h3>
+                        <p class="metaverse-text">Interfaces that captivate and inspire users</p>
+                    </div>
+                </div>
+                
+                <div class="treasure-item" tabindex="0">
+                    <span class="treasure-icon">🌌</span>
+                    <div class="treasure-content">
+                        <h3>Quantum Computing Breakthroughs</h3>
+                        <p class="metaverse-text">Pushing the limits of computational possibility</p>
+                    </div>
+                </div>
+                
+                <div class="treasure-item" tabindex="0">
+                    <span class="treasure-icon">🔮</span>
+                    <div class="treasure-content">
+                        <h3>Royal Performance Optimizations</h3>
+                        <p class="metaverse-text">Code that runs like a dream, smooth as silk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Enhanced Palace Information -->
+        <section id="palaces" class="palace-section performance-critical" aria-labelledby="palaces-title">
+            <h2 id="palaces-title" class="phantom-title" style="font-size: 2rem;">🏰 COGNITIVE PALACES</h2>
+            
+            <div class="palace-grid">
+                <div class="palace-card">
+                    <h3 class="phantom-title" style="font-size: 1.5rem;">Palace of Innovation</h3>
+                    <p class="metaverse-text">Where traditional coding paradigms are challenged and transformed</p>
+                    <div class="palace-distortion">🌀</div>
+                </div>
+                
+                <div class="palace-card">
+                    <h3 class="phantom-title" style="font-size: 1.5rem;">Palace of Performance</h3>
+                    <p class="metaverse-text">Optimizing every byte, every cycle, every possibility</p>
+                    <div class="palace-distortion">⚡</div>
+                </div>
+                
+                <div class="palace-card">
+                    <h3 class="phantom-title" style="font-size: 1.5rem;">Palace of Elegance</h3>
+                    <p class="metaverse-text">Where code becomes art and function meets form</p>
+                    <div class="palace-distortion">✨</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Performance Monitor Display -->
+        <div class="performance-monitor" aria-label="Performance statistics">
+            <div class="fps-counter">FPS: <span id="fps-display">60</span></div>
+            <div class="quality-indicator">Quality: <span id="quality-display">HIGH</span></div>
+        </div>
+        
+        <!-- Enhanced Particle System Container -->
+        <div class="red-particles-royal" aria-hidden="true"></div>
+        
+        <!-- Enhanced Velvet Room Portal -->
+        <div class="velvet-room-portal performance-critical" 
+             tabindex="0" 
+             role="button" 
+             aria-label="Enter the Velvet Room"
+             title="Enter the Velvet Room (Ctrl+Shift+V)">
+        </div>
+    </div>
+    
+    <!-- Performance Optimized JavaScript Loading -->
+    <script>
+        // Preload and initialize critical systems
+        window.addEventListener('load', () => {
+            // Remove loading screen
+            const loadingScreen = document.querySelector('.loading-screen');
+            if (loadingScreen) {
+                setTimeout(() => {
+                    loadingScreen.style.display = 'none';
+                }, 3000);
+            }
+            
+            // Initialize performance monitoring
+            window.requestIdleCallback(() => {
+                console.log('🎭 Persona 5 Royal Portfolio - Performance Optimized');
+                console.log('Features: Enhanced animations, adaptive performance, royal aesthetics');
+            });
+        });
+        
+        // Keyboard shortcuts information
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'h') {
+                e.preventDefault();
+                alert(`🎭 Phantom Thieves Shortcuts:
+                
+Ctrl+Shift+P - Phantom Mode
+Ctrl+Shift+V - Velvet Room
+Ctrl+Shift+H - This help menu
+
+Explore the Metaverse with enhanced performance!`);
+            }
+        });
+    </script>
+    
+    <!-- Load enhanced JavaScript -->
+    <script src="persona5-royal-enhanced.js" defer></script>
+    
+    <!-- Additional CSS for new components -->
+    <style>
+        .royal-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(255, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+            border-radius: 15px;
+            border: 2px solid var(--phantom-red);
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+        }
+        
+        .stat-value {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2.5rem;
+            color: var(--phantom-red);
+            text-shadow: 0 0 10px var(--phantom-red);
+            animation: mask-shimmer 3s infinite;
+        }
+        
+        .stat-label {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1rem;
+            color: var(--white-mask);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+        
+        .treasure-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .treasure-item {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background: rgba(255, 0, 0, 0.1);
+            border: 2px solid var(--phantom-red);
+            border-radius: 15px;
+            transition: all var(--timing-fast) var(--ease-royal);
+            cursor: pointer;
+        }
+        
+        .treasure-item:hover {
+            background: rgba(255, 0, 0, 0.2);
+            transform: translateX(10px) scale(1.02);
+            box-shadow: 0 10px 30px rgba(255, 0, 0, 0.3);
+        }
+        
+        .treasure-icon {
+            font-size: 2rem;
+            margin-right: 20px;
+            animation: mask-shimmer 4s infinite;
+        }
+        
+        .treasure-content h3 {
+            color: var(--phantom-red);
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.3rem;
+            margin: 0 0 5px 0;
+        }
+        
+        .palace-section {
+            margin: 50px 0;
+            padding: 30px;
+            background: linear-gradient(135deg, var(--royal-purple), var(--deep-black));
+            border-radius: 25px;
+            border: 3px solid var(--phantom-red);
+        }
+        
+        .palace-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .palace-card {
+            background: linear-gradient(45deg, var(--deep-black), var(--shadow-gray));
+            border: 2px solid var(--phantom-red);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: all var(--timing-medium) var(--ease-royal);
+        }
+        
+        .palace-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(255, 0, 0, 0.4);
+        }
+        
+        .palace-distortion {
+            font-size: 3rem;
+            margin: 20px 0;
+            animation: calling-card-royal 8s infinite;
+        }
+        
+        .performance-monitor {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: var(--phantom-red);
+            padding: 10px;
+            border-radius: 10px;
+            font-family: 'Rajdhani', monospace;
+            font-size: 0.9rem;
+            z-index: 1000;
+            border: 1px solid var(--phantom-red);
+        }
+        
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .royal-stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .treasure-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .palace-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .performance-monitor {
+                font-size: 0.8rem;
+                padding: 8px;
+            }
+        }
+    </style>
+</body>
+
+</html>
